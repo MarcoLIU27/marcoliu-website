@@ -7,21 +7,26 @@ header-img:
 last-updated: 2020-10-30 5:55 PM
 ---
 
-<h1 class="mx-auto" style="font-family:Courgette;">{{ page.title }}</h1>
+<h1 class="mx-auto">{{ page.title }}</h1>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero id faucibus nisl tincidunt eget. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Duis convallis convallis tellus id interdum velit. Ultricies mi eget mauris pharetra et. Odio pellentesque diam volutpat commodo sed egestas. Eu mi bibendum neque egestas congue quisque. Augue lacus viverra vitae congue eu consequat ac felis donec. Ultrices vitae auctor eu augue ut lectus arcu. Eu consequat ac felis donec et. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget.
+Year 3 CS student with a passion for programming, looking for machine learning and visual computing
+opportunities. A creative and dedicated person with excellent attention to detail. Responsible for work and
+leader of many group projects. Possess research experience in machine learning and computer vision.
+
+<h1 class="mx-auto">Honors and Awards</h1>
+<ul>
+<li>Reaching Out Award (Nominated) Secretary for Education, Hong Kong SAR March 2022</li>
+<li>ELITE Stream Scholarship 2020/21 Faculty of Engineering, CUHK Oct. 2021</li>
+</ul>
 
 
-*This is an example of code*
-```js
-<script>
-    $(document).ready(function() {
-        $(".toast").toast('show');
-    });
-</script>
-```
+Yasumoto International Exchange Scholarship Office of Academic Links, CUHK August 2021
+Dean’s List 2020/21 Faculty of Engineering, CUHK July 2021
+Talent Development Scholarship Secretary for Education, Hong Kong June 2021
+Hong Kong, China-Asia-Pacific Economic Cooperation Scholarship Secretary for Education, HKSARJune 2021
+Liao Yuan Tung Memorial Scholarship CW Chu College, CUHK June 2021
+ELITE Stream Scholarship 2019/20 Faculty of Engineering, CUHK Oct. 2020
+Dean’s List 2019/20 Faculty of Engineering, CUHK July 2020
+Zhiyuan Scholarship China Soong Ching Ling Foundation Nov. 2019
 
-Semper eget duis at tellus at urna condimentum. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Suspendisse faucibus interdum posuere lorem ipsum dolor. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Massa placerat duis ultricies lacus. Fermentum et sollicitudin ac orci phasellus egestas tellus. Placerat orci nulla pellentesque dignissim enim sit amet. Tellus mauris a diam maecenas sed enim. Tortor vitae purus faucibus ornare. Lectus quam id leo in vitae turpis massa. Porttitor eget dolor morbi non arcu risus quis varius. Felis eget nunc lobortis mattis aliquam. Integer vitae justo eget magna fermentum.
-
-Egestas congue quisque egestas diam in arcu cursus euismod quis. Ullamcorper eget nulla facilisi etiam dignissim diam. Nunc pulvinar sapien et ligula ullamcorper. Turpis in eu mi bibendum. Faucibus scelerisque eleifend donec pretium vulputate. Euismod lacinia at quis risus sed vulputate odio ut enim. Phasellus faucibus scelerisque eleifend donec pretium. Non enim praesent elementum facilisis leo vel fringilla est ullamcorper. Quis auctor elit sed vulputate. Eu mi bibendum neque egestas. Eu turpis egestas pretium aenean pharetra magna ac. Augue ut lectus arcu bibendum at. Urna condimentum mattis pellentesque id nibh tortor id aliquet lectus. Fermentum leo vel orci porta non pulvinar. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Amet commodo nulla facilisi nullam vehicula ipsum a arcu.
 
