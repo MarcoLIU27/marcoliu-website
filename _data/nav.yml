@@ -1,11 +1,17 @@
 nav_list_title: Navigation List
 links:
 
-- title: About
+- title: About Me
   url: about.html
+
+- title: Research
+  url: research.html
 
 - title: Publications
   url: publications.html
+
+- title: Projects
+  url: projects.html
 
 - title: Blog
   url: blog.html
@@ -14,7 +20,7 @@ links:
   url: awards.html
 
 - title: Vitae
-  url: /assets/pdf/vitae.pdf
+  url: /assets/pdf/cv-hyliu.pdf
 
 - title: Contact
   url: contact.html

@@ -1,25 +1,18 @@
-- name: Publications
-  id: publications
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+- name: Research
+  id: research
+  description: 
   url: publications.html
   first: true
   
 - name: Coursework
   id: courses
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  content: 
+  description: 
   first: false
 
-- name: Teaching
-  id: teaching
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  content: 
-  url: teaching.html
-  first: false
 
 - name: Projects
   id: projects
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: 
   content: 
   url: projects.html
   first: false
