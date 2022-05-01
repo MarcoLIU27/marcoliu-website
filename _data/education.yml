@@ -1,6 +1,13 @@
-- School: Princeton
+- School: the Chinese University of Hong Kong
   Degree: 
-  Program: School of Public and International Affairs
-  Start Date: 
-  End Date: 
-  Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
+  Program: Bsc. of Computer Science
+  StartDate: Sep. 2019
+  EndDate: May 2023
+  Icon: /assets/img/icons/cuhk-logo.png      # Make this icon small, think 30px/30px
+
+- School: University of Melbourne
+  Degree: 
+  Program: Term-time Exchange
+  StartDate: Feb. 2022
+  EndDate: June 2022
+  Icon: /assets/img/icons/unimelb-logo.jpg
