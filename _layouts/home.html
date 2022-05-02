@@ -46,7 +46,6 @@ layout: default
     </div>
   </div>
 </div>
-
 <!-- style="font-family:{{ theme.link-font }};background-color:{{ theme.nav-color }}; -->
 
 <!-- HOME HIGHLIGHTS SECTION --> 
@@ -60,11 +59,11 @@ layout: default
       {% for section in site.data.sections %}
         {% if section.first %}
           <li class="nav-item">
-            <a class="nav-link shadow-none" id="{{ section.jsid }}" href="#{{section.id}}" role="tab" aria-controls="{{section.id}}" aria-selected="true" style="font-family:{{ theme.font}};color:{{ theme.home-highlight-header-text}};">{{section.emoji}} {{section.name}}</a>
+            <a class="nav-link shadow-none active" id="{{ section.jsid }}" href="#{{section.id}}" role="tab" aria-controls="{{section.id}}" aria-selected="true" style="font-family:{{ theme.font}};">{{section.emoji}} {{section.name}}</a>
           </li>
         {% else %}
           <li class="nav-item">
-              <a class="nav-link" id="{{ section.jsid }}" href="#{{section.id}}" role="tab" aria-controls="{{section.id}}" aria-selected="true" style="font-family:{{ theme.font}};color:{{ theme.home-highlight-header-text}};">{{section.emoji}} {{section.name}}</a>
+              <a class="nav-link" id="{{ section.jsid }}" href="#{{section.id}}" role="tab" aria-controls="{{section.id}}" aria-selected="true" style="font-family:{{ theme.font}};">{{section.emoji}} {{section.name}}</a>
           </li>
         {% endif %}
       {% endfor %}
@@ -74,10 +73,29 @@ layout: default
       <div class="tab-content mt-3">
         {% for section in site.data.sections %}
           {% if section.first %}
-            {% if section.name == "Publications" %}
-              <div class="tab-pane active overflow-auto" id="{{section.id}}" role="tabpanel">
+            {% if section.name == "Research" %}
+              <div class="tab-pane active overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
                 <p><i>{{section.description}}</i></p>
-                <p class="card-text">{% bibliography -f papers %}</p>
+                  {% for research in site.data.research %}
+                  <div class="media mt-2">
+                    <!--<a href="{{ research.link }}"><img src="{{ research.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>-->
+                    <div class="media-body">
+                      <h5 class="mt-0"><a href="{{ research.link }}" class="highlighted">{{ research.name }}</a></h5>
+                      <h6 class="mt-0">{{ research.position }} | Supervisor: {{ research.supervisor }}</h6>
+                      <ul>
+                        {% for description in research.description %}
+                        <li>{{ description }}</li>
+                        {% endfor %}
+                      </ul>
+                      {% if research.tech %}
+                        <h5>Technologies</h5>
+                          {% for tech in research.tech %}
+                          <span class="badge badge-secondary mr-1" style="background-color:{{ theme.research-color }};">{{ tech }}</span>
+                          {% endfor %}
+                      {% endif %}
+                    </div>
+                  </div>
+                  {% endfor %}      
               </div>
             {% else %}
               <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel">
@@ -85,12 +103,7 @@ layout: default
               </div>
             {% endif %}
           {% else %}  
-            {% if section.name == "Presentations" %}
-              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
-                <p><i>{{section.description}}</i></p>
-                <p class="card-text">{% bibliography -f presentations %}</p>              
-              </div>
-            {% elsif section.name == "Projects" %}
+            {% if section.name == "Projects" %}
               <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
                 <p><i>{{section.description}}</i></p>
                   {% for projects in site.data.projects %}
@@ -107,8 +120,12 @@ layout: default
                       {% endif %}
                     </div>
                   </div>
-                  {% endfor %}
-                </div>        
+                  {% endfor %}      
+              </div>
+            {% elsif section.name == "Publications" %}
+              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel">
+                <p><i>{{section.description}}</i></p>
+                <p class="card-text">{% bibliography -f papers %}</p>
               </div>
             {% elsif section.name == "Teaching" %}
               <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  

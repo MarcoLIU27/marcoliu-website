@@ -5,3 +5,4 @@ gem 'jekyll-feed'
 gem 'jekyll-scholar'
 gem 'jekyll-environment-variables'
 gem "webrick"
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?

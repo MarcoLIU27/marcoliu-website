@@ -1,0 +1,43 @@
+---
+layout: page
+permalink: /research.html
+title: Research
+header-img: 
+last-updated: 2020-10-30 5:55 PM
+---
+{% assign theme = site.data.themes[site.ui_theme] %}
+<div class="blogcard  card-2 mb-4" style="width: 100%;">
+  <div class="card-body">
+    <h5 class="card-title text-center" style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};">{{ page.title }}</h5>
+  </div>
+</div>
+
+<div class="blogcard  card-3 mb-4" style="width: 100%;">
+  <div class="card-body">
+    <div class="tab-pane active overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
+      <p><i>{{section.description}}</i></p>
+        {% for research in site.data.research %}
+        <div class="media mt-2">
+          <!--<a href="{{ research.link }}"><img src="{{ research.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>-->
+          <div class="media-body">
+            <h5 class="mt-0"><a href="{{ research.link }}" class="highlighted">{{ research.name }}</a></h5>
+            <h6 class="mt-0">{{ research.position }} | Supervisor: {{ research.supervisor }}</h6>
+            <ul>
+              {% for description in research.description %}
+              <li>{{ description }}</li>
+              {% endfor %}
+            </ul>
+            {% if research.tech %}
+              <h5>Technologies</h5>
+                {% for tech in research.tech %}
+                <span class="badge badge-secondary mr-1" style="background-color:{{ theme.research-color }};">{{ tech }}</span>
+                {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}      
+    </div>
+  </div>
+</div>
+
+
