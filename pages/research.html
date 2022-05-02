@@ -6,13 +6,13 @@ header-img:
 last-updated: 2020-10-30 5:55 PM
 ---
 {% assign theme = site.data.themes[site.ui_theme] %}
-<div class="blogcard  card-2 mb-4" style="width: 100%;">
+<div class="blogcard card-2 mb-4" style="width: 100%;">
   <div class="card-body">
-    <h5 class="card-title text-center" style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};">{{ page.title }}</h5>
+    <div class="card-title text-center page-title">{{ page.title }}</div>
   </div>
 </div>
 
-<div class="blogcard  card-3 mb-4" style="width: 100%;">
+<div class="blogcard mb-4" style="width: 100%;">
   <div class="card-body">
     <div class="tab-pane active overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
       <p><i>{{section.description}}</i></p>
