@@ -1,5 +1,10 @@
 /* Sticky footer styles
 -------------------------------------------------- */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 html {
     position: relative;
     min-height: 100%;
@@ -604,11 +609,6 @@ background-image: url(https://ionicframework.com/img/getting-started/ionic-nativ
   background-size: 80px;
 }
 
-@media(max-width: 990px){
-.blogcard{
-  margin: 20px;
-}
-} 
 
 a:link {color: black;}      /* unvisited link */
 a:visited {color: black;}   /* visited link */
@@ -696,4 +696,46 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
   display: flex;
   font-family: Proxima;
   margin: 5% 0 0 15%;
+}
+
+/*Button*/
+.buttons {
+  margin: 1em;
+  text-align: center;
+}
+
+.btn-hover {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-1 {
+  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
