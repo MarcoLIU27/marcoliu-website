@@ -1,0 +1,23 @@
+- name: Simultaneously Deblurring and Segmentation for Cataract Surgical Instruments,
+  id: research1
+  position: Summer Research Intern
+  description:
+    - Worked in a group on deblurring and segmentation for cataract surgical instruments, in which a spatio-temporal
+      RNN was proposed to tackle motion blurring and occlusion problems in cataract surgical instruments segmentation.
+    - Designed and conducted experiments on model evaluation and comparison using TensorFlow, PyTorch and Docker.
+    - Proposed ideas for the motivation of the project, designed and constructed the dataset, and improved the
+      performance of the proposed networks.
+    - Wrote weekly reports, submitted progress and final reports, and gave a video presentation to the faculty.
+    - Worked on a paper as the second author which has been submitted to MICCAI 2022 and is under review.
+  supervisor: Shing Shin Cheng, Assistant Professor
+  location: Surgical Robotics & Devices Lab, The Chinese University of Hong Kong, Hong Kong
+  date: true
+  link: 
+  image: 
+  StartDate: June 2021
+  EndDate: Sept. 2021
+  tech: 
+    - Python
+    - TensorFlow
+    - PyTorch
+    - Docker 
