@@ -116,7 +116,7 @@ exclude:
 # -----JEKYLL SCHOLAR SETTINGS-----------#
 #========================================#
 scholar:
-  last_name: Dumbarton
+  last_name: Liu
   style: apa
   locale: en
   source: /_bibliography/
