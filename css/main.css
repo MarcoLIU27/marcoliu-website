@@ -77,6 +77,10 @@ a.highlighted:hover {
   text-align: left;
 }
 
+.page-title, .page-title-small{
+  font-size: 36px;
+  font-weight: 700;
+}
 /* Layout */
 * {
   @include box-sizing(border-box);
@@ -582,10 +586,9 @@ font-weight: 600;
 }
 
 .blogcard img{
-position: absolute;
-top: 20px;
-right: 15px;
-max-height: 120px;
+padding: 15px 0 15px 0;
+max-height: 400px;
+max-width: 100%;
 }
 
 .card-1{
@@ -738,4 +741,61 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
 .btn-hover.color-1 {
   background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
   box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.fa-caret-down:before{
+  color:white;
+}
+.entry-title{
+  line-height: 1.5;
+  background-image: linear-gradient( white 50%, rgb(225, 102, 61) 50%);
+  background-size: auto 175%;
+}
+a[data-fancybox] img {
+  cursor: zoom-in;
+}
+
+.thumbnails-1{
+  width: 300px;
+}
+
+.thumbnails-2{
+  width: 200px;
+}
+
+.thumbnails-3{
+  height: 300px;
+}
+
+.rounded-pic{
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.gallery-container{
+    margin: 0 1.5rem 1.5rem 0;
+    display: inline-block;
+    border: solid 2px black;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    transition: all .25s ease-in-out;
+}
+
+.gallery-container:hover {
+  border-color: coral;
+}
+
+@media (max-width:500px){
+  .page-title{
+    font-size: 32px;
+  }
+  .page-title-small{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .blogcard-small-screen{
+    padding: 4px 8px 8px 5px;
+  }
+  .description-list{
+    padding-left: 18px;
+  }
 }

@@ -6,7 +6,11 @@ description: I write about cyber threat intelligence
 header-img:  
 last-updated: 2020-10-30 5:55 PM
 ---
-
+<div class="blogcard  card-2 mb-4" style="width: 100%;">
+  <div class="card-body">
+    <div class="card-title text-center page-title">{{ page.title }}</div>
+  </div>
+</div>
 <!-- Page Content -->
   {% if site.twitter-widget %}
   <div class="row">
@@ -30,11 +34,14 @@ last-updated: 2020-10-30 5:55 PM
   </div>
   {% else %}
     <!-- Blog Entries Column -->
-      <div class="col-md-12">
+      <div>
       {% for post in site.posts %}
           <div class="blogcard {{post.card}} mb-4 mt-4" style="width: 100%;">
-            <h3><a href="{{ post.url }}" class="nohighlight">{{ post.title }}</a></h3>
-              <a href="#" class="badge badge-primary" style="background-color: rgba(78, 34, 208, 0.1);color: #4e22d0;">{{post.tag}}</a>  
+            <span><h3><a href="{{ post.url }}" class="nohighlight">{{ post.title }}</a></h3></span>
+            {% if post.image %}
+            <div><img src="{{ post.image }}"></div>
+            {% endif %}
+            <a href="#" class="badge badge-primary" style="background-color: rgba(78, 34, 208, 0.1);color: #4e22d0;">{{post.tag}}</a>  
             <p>{{post.description}}</p>
             <p><i>{{post.lead}}</i></p>
           </div>

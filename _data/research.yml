@@ -1,4 +1,4 @@
-- name: Simultaneously Deblurring and Segmentation for Cataract Surgical Instruments,
+- name: Simultaneously Deblurring and Segmentation for Cataract Surgical Instruments
   id: research1
   position: Summer Research Intern
   description:
@@ -12,7 +12,7 @@
   supervisor: Shing Shin Cheng, Assistant Professor
   location: Surgical Robotics & Devices Lab, The Chinese University of Hong Kong, Hong Kong
   date: true
-  link: 
+  link: /research.html
   image: 
   StartDate: June 2021
   EndDate: Sept. 2021
@@ -20,4 +20,8 @@
     - Python
     - TensorFlow
     - PyTorch
-    - Docker 
+    - Docker
+    - Linux
+    - Anaconda
+    - LaTeX
+

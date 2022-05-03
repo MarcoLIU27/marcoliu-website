@@ -88,9 +88,9 @@ layout: default
                         {% endfor %}
                       </ul>
                       {% if research.tech %}
-                        <h5>Technologies</h5>
+                        <h6>Technologies</h6>
                           {% for tech in research.tech %}
-                          <span class="badge badge-secondary mr-1" style="background-color:{{ theme.research-color }};">{{ tech }}</span>
+                          <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ tech }}</span>
                           {% endfor %}
                       {% endif %}
                     </div>
@@ -107,13 +107,18 @@ layout: default
               <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
                 <p><i>{{section.description}}</i></p>
                   {% for projects in site.data.projects %}
-                  <div class="media mt-2">
-                    <a href="{{ projects.link }}"><img src="{{ projects.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>
+                  <div class="media mt-2" style="margin-bottom: 1.5rem">
+                    <!--<a href="{{ projects.link }}"><img src="{{ projects.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>-->
                     <div class="media-body">
                       <h5 class="mt-0"><a href="{{ projects.link }}" class="highlighted">{{ projects.name }}</a></h5>
-                      {{ projects.description }}
+                      <h6 class="mt-0">{{ projects.nature }} | Supervisor: {{ projects.time }}</h6>
+                      <ul style="margin-bottom:0.5rem;">
+                        {% for description in projects.description %}
+                        <li>{{ description }}</li>
+                        {% endfor %}
+                      </ul>
                       {% if projects.tech %}
-                        <h6><mark><u>Technologies</u></mark></h6>
+                        <h6 style="margin-bottom:0.25rem;">Technologies</h6>
                         {% for tech in projects.tech %}
                         <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ tech }}</span>
                         {% endfor %}

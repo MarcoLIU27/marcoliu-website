@@ -1,47 +1,169 @@
-- name: Project 1
-  id: project1
-  description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+- name: >
+    Twitter Sentiment Prediction
+  nature: Group Project
+  id: project11
+  time: May 2022
+  description:
+    - Working Process...
   date: true
-  link: https://example.com
+  link: /projects.html
   image:  http://placehold.it/100x100
-  tech: 
-    - python
+  tech:
+    - Python
 
-
-- name: Project 2
-  id: project2
-  description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
+- name: >
+    SLOP Game
+  nature: Group Project
+  id: project10
+  time: April 2022
+  description:
+    - Working Process...
   date: true
-  link: https://example.com
-  image: http://placehold.it/100x100
-  tech: 
-    - c++
-
-- name: Project 3
-  id: project3
-  description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
-  date: true
-  link: https://example.com
+  link: /projects.html
   image:  http://placehold.it/100x100
-  tech: 
+  tech:
     - Java
-    - Maven
-    - Jenkins
+    - draw.io
 
-- name: Project 4
+- name: >
+    Diabetes-Home: A Diabetes Management Web Application
+  nature: Group Project
+  id: project9
+  time: Ongoing
+  description:
+    - Collaborated with team members to build a web application which allow diabetes patients to record health data, 
+      contact with clinicians and allow clinicians to monitor patients' data and take notes.
+    - Designed UX/UI prototype of the web app and made a clickable prototype using Adobe XD.
+    - Worked on the front-end of the website using HTML, CSS, JavaScript and Handlebars.
+  date: true
+  link: /projects.html
+  image:  http://placehold.it/100x100
+  tech:
+    - Adobe XD
+    - HTML
+    - CSS
+    - JavaScript
+    - HandleBars
+    - MongoDB
+    - Heroku
+
+
+- name: MLFQ Scheduler
+  nature: Individual Project
+  id: project8
+  time: December 2021
+  description:
+    - Implemented a Multilevel Feedback Queue (MLFQ) scheduler in C according to the given scheduling rules, 
+      process information and queue information based on the framework.
+    - The scheduler passed all the test cases and got full marks in the evaluation.
+  date: true
+  link: /projects.html
+  image:  http://placehold.it/100x100
+  tech:
+    - C
+    - Linux
+    - Ubuntu
+
+- name: Research on Daily Activities and Sleep Quality
+  nature: Group Project
+  id: project7
+  time: April 2021
+  description:
+    - Proposed the idea and methodologies for investigating the relationships between college students’ daily activities and sleep quality.
+    - Collected, plotted, and analyzed the raw data from online questionnaires. Fitted the data with different distributions and gave estimations with a 95% confidence interval.
+    - Exploited conditional possibilities to indicate the most suitable activity time intervals to improve the sleep quality.
+    - Self-studied multivariate normal distribution and tried to apply it on our data set.
+    - Finished a 21-page report together with other group members and gave a presentation to the class.
+  date: true
+  link: /projects.html
+  image:  http://placehold.it/100x100
+  tech:
+    - LaTeX
+
+- name: >
+    A Smart Walking Stick: “Eye-Cane”
+  nature: Group Project, Group Leader
+  id: project6
+  time: April 2021
+  description:
+    - >
+      Proposed the idea of an innovation: an intelligent walking stick for the visually impaired to travel, designed its appearance and general functions.
+    - Investigated the working principles and technical specifications of the technologies used in our innovation.
+    - Designed the prototype of the product and proposed the project development plan including the project schedule with a Gantt Chart, required resources and the budget plan.
+    - Finished a 21-page technical specification and a 17-page product proposal together with other group members, and gave presentations of our product.
+  date: true
+  link: /projects.html
+  image:  http://placehold.it/100x100
+  tech:
+    - Adobe Illustrator
+
+- name: Surveillance vs. Privacy
+  nature: Group Project
+  id: project5
+  time: March 2021
+  description:
+    - Studied on the digital privacy and the role of surveillance.
+    - Investigated on how electronic products monitor people's behaviors, possible consequences of privacy disclosure, and explored possible ways to prevent privacy from revealing.
+    - Finished a report article together with other group members and submitted to the department student forum.
+  date: true
+  link: /projects.html
+  image:  http://placehold.it/100x100
+  tech:
+
+- name: Reversi Game
+  nature: Individual Project
   id: project4
-  description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 0
+  time: December 2020
+  description:
+    - Built a board game Reversi using Java based on the GUI and basic frame, implemented functions to judge valid moves and the end of the game.
+    - Implemented an extension to the basic game to allow the user to load a game board from a file using inheritance, and save current game board and current player setting on window closing.
   date: true
-  link: https://example.com
-  image: http://placehold.it/100x100
-  tech: 
-    - Sonarcube
+  link: /projects.html
+  image:  http://placehold.it/100x100
+  tech:
     - Java
+
+- name: Data Analysis and Fraudulent Detection via Benford's Law
+  nature: Group Project
+  id: project3
+  time: December 2020
+  description:
+    - collected and analyzed a variety of data in different fields from professional statistical websites, classify the data types into types that may or may not obey Benford's law, and summary the possible conditions of Benford's law.
+    - Collected real-world data from social media platforms, votes and stock market using Python, and analyzed them by different verification methods to find out the possible data fraudulent according to Benford's Law.
+    - Finished a 48-page report (including forms and charts) together with other group members and gave a presentation to the class.
+  date: true
+  link: /projects.html
+  image:  http://placehold.it/100x100
+  tech:
+    - Python
+    - LaTeX
+
+- name: Conway's Game of Life and Turing-completeness
+  nature: Group Project
+  id: project2
+  time: April 2020
+  description:
+    - Implemented Conway's Game of Life in Python.
+    - Reproduced the proof of Turing-completeness of Conway's Game of Life using equivalent conditions and logical gates.
+    - Studied the patterns, features, and Turing-completeness of different cellular automatons such as Rule 110, collected and studied more Turing-complete Examples such as Minesweeper.
+    - Gave oral presentations to the class. Here is the <a href="/assets/pdf/game_of_life.pdf" target="_blank" class="highlighted">poster</a> designed and made by me. 
+  date: true
+  link: /projects.html
+  image:  http://placehold.it/100x100
+  tech:
+    - Python
+    - Adobe Illustrator
+
+- name: Checkers AI Player Program
+  nature: Individual Project
+  id: project1
+  time: November 2019
+  description:
+    - Developed a checkers program using C which supports both human-human players mode and human-AI players mode.
+    - Self-studied and implemented Alpha-beta pruning algorithm in the AI player part to make the AI player execute the best possible strategy in a limited time.
+    - My AI Player ranked 2nd out of 45 students in the AI tournament of the course.
+  date: true
+  link: /projects.html
+  image:  http://placehold.it/100x100
+  tech:
+    - C
