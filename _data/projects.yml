@@ -7,7 +7,7 @@
     - Working Process...
   date: true
   link: /projects.html
-  image:  http://placehold.it/100x100
+  image:  https://placehold.it/100x100
   tech:
     - Python
 
@@ -20,7 +20,7 @@
     - Working Process...
   date: true
   link: /projects.html
-  image:  http://placehold.it/100x100
+  image:  https://placehold.it/100x100
   tech:
     - Java
     - draw.io
@@ -37,7 +37,7 @@
     - Worked on the front-end of the website using HTML, CSS, JavaScript and Handlebars.
   date: true
   link: /projects.html
-  image:  http://placehold.it/100x100
+  image:  https://placehold.it/100x100
   tech:
     - Adobe XD
     - HTML
@@ -58,7 +58,7 @@
     - The scheduler passed all the test cases and got full marks in the evaluation.
   date: true
   link: /projects.html
-  image:  http://placehold.it/100x100
+  image:
   tech:
     - C
     - Linux
@@ -76,7 +76,7 @@
     - Finished a 21-page report together with other group members and gave a presentation to the class.
   date: true
   link: /projects.html
-  image:  http://placehold.it/100x100
+  image:
   tech:
     - LaTeX
 
@@ -93,7 +93,7 @@
     - Finished a 21-page technical specification and a 17-page product proposal together with other group members, and gave presentations of our product.
   date: true
   link: /projects.html
-  image:  http://placehold.it/100x100
+  image:
   tech:
     - Adobe Illustrator
 
@@ -107,7 +107,7 @@
     - Finished a report article together with other group members and submitted to the department student forum.
   date: true
   link: /projects.html
-  image:  http://placehold.it/100x100
+  image:
   tech:
 
 - name: Reversi Game
@@ -119,7 +119,7 @@
     - Implemented an extension to the basic game to allow the user to load a game board from a file using inheritance, and save current game board and current player setting on window closing.
   date: true
   link: /projects.html
-  image:  http://placehold.it/100x100
+  image: 
   tech:
     - Java
 
@@ -133,7 +133,7 @@
     - Finished a 48-page report (including forms and charts) together with other group members and gave a presentation to the class.
   date: true
   link: /projects.html
-  image:  http://placehold.it/100x100
+  image:
   tech:
     - Python
     - LaTeX
@@ -149,7 +149,7 @@
     - Gave oral presentations to the class. Here is the <a href="/assets/pdf/game_of_life.pdf" target="_blank" class="highlighted">poster</a> designed and made by me. 
   date: true
   link: /projects.html
-  image:  http://placehold.it/100x100
+  image:  
   tech:
     - Python
     - Adobe Illustrator
@@ -164,6 +164,6 @@
     - My AI Player ranked 2nd out of 45 students in the AI tournament of the course.
   date: true
   link: /projects.html
-  image:  http://placehold.it/100x100
+  image: 
   tech:
     - C

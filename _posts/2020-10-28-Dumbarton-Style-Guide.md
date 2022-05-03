@@ -5,7 +5,7 @@ description: "The Only Useful Post Here"
 type: card-dated
 date:   2020-10-28 20:01:21 -0400
 categories: Dumabrton style
-image: # http://placehold.it/750X300?text=Header+Image for local images, place in /assets/img/posts/
+image: # https://placehold.it/750X300?text=Header+Image for local images, place in /assets/img/posts/
 caption:
 last-updated: 2020-10-26 20:01:21 -0400
 categories: post
@@ -148,7 +148,7 @@ This theme uses Bootstrap 4 CDN. In addition to markdown, you can use raw bootst
 </div>
 
 <div class="card" style="width: 18rem;">
-  <img src="http://placehold.it/150x150" class="card-img-top" alt="...">
+  <img src="https://placehold.it/150x150" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -313,21 +313,21 @@ This theme uses Bootstrap 4 CDN. In addition to markdown, you can use raw bootst
 
 <ul class="list-unstyled">
   <li class="media">
-    <img src="http://placehold.it/150x150" class="mr-3" alt="...">
+    <img src="https://placehold.it/150x150" class="mr-3" alt="...">
     <div class="media-body">
       <h5 class="mt-0 mb-1">List-based media object</h5>
       Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
     </div>
   </li>
   <li class="media my-4">
-    <img src="http://placehold.it/150x150" class="mr-3" alt="...">
+    <img src="https://placehold.it/150x150" class="mr-3" alt="...">
     <div class="media-body">
       <h5 class="mt-0 mb-1">List-based media object</h5>
       Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
     </div>
   </li>
   <li class="media">
-    <img src="http://placehold.it/150x150" class="mr-3" alt="...">
+    <img src="https://placehold.it/150x150" class="mr-3" alt="...">
     <div class="media-body">
       <h5 class="mt-0 mb-1">List-based media object</h5>
       Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
@@ -467,11 +467,10 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
 <div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 200px;">
   <!-- Position it -->
   <div style="position: absolute; top: 0; right: 0;">
-
     <!-- Then put toasts within -->
     <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
       <div class="toast-header">
-        <img src="http://placehold.it/150x150" class="rounded mr-2" alt="...">
+        <img src="https://placehold.it/150x150" class="rounded mr-2" alt="...">
         <strong class="mr-auto">Bootstrap</strong>
         <small class="text-muted">just now</small>
         <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
@@ -482,10 +481,9 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
         See? Just like this.
       </div>
     </div>
-
     <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
       <div class="toast-header">
-        <img src="http://placehold.it/150x150" class="rounded mr-2" alt="...">
+        <img src="https://placehold.it/150x150" class="rounded mr-2" alt="...">
         <strong class="mr-auto">Bootstrap</strong>
         <small class="text-muted">2 seconds ago</small>
         <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
