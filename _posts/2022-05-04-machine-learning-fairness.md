@@ -51,8 +51,8 @@ In conclusion, it’s of great significance to reduce bias in machine learning a
 
 #### Reference
 
-[1] Z. Zhong, “A Tutorial on Fairness in Machine Learning,” towards data science, Oct. 22, 2018. [Online]. Available: https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb. [Accessed Apr. 29, 2021].
+\[1\] Z. Zhong, “A Tutorial on Fairness in Machine Learning,” towards data science, Oct. 22, 2018. \[Online\]. Available: https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb. [Accessed Apr. 29, 2021].
 
-[2] N. Mehrabi, F. Morstatter, N. Saxena, K. Lerman and A. Galstyan, “A Survey on Bias and Fairness in Machine Learning,” arXiv, Sep. 17, 2019. [Online]. Available: https://arxiv.org/pdf/1908.09635.pdf. [Accessed Apr. 29, 2021].
+\[2\] N. Mehrabi, F. Morstatter, N. Saxena, K. Lerman and A. Galstyan, “A Survey on Bias and Fairness in Machine Learning,” arXiv, Sep. 17, 2019. \[Online\]. Available: https://arxiv.org/pdf/1908.09635.pdf. [Accessed Apr. 29, 2021].
 
-[3] Machine Learning Fairness: Lessons Learned (Google I/O'19), YouTube, May 10, 2019. [Online]. Available:	 https://www.youtube.com/watch?v=6CwzDoE8J4M&list=PLOU2XLYxmsILVTiOlMJdo7RQS55jYhsMi&index=80. [Accessed Apr. 29, 2021].
+\[3\] Machine Learning Fairness: Lessons Learned (Google I/O'19), YouTube, May 10, 2019. \[Online\]. Available:	 https://www.youtube.com/watch?v=6CwzDoE8J4M&list=PLOU2XLYxmsILVTiOlMJdo7RQS55jYhsMi&index=80. [Accessed Apr. 29, 2021].
