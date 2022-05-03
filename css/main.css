@@ -77,7 +77,7 @@ a.highlighted:hover {
   text-align: left;
 }
 
-.page-title{
+.page-title, .page-title-small{
   font-size: 36px;
   font-weight: 700;
 }
@@ -742,4 +742,22 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
 .btn-hover.color-1 {
   background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
   box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.fa-caret-down:before{
+  color:white;
+}
+@media (max-width:500px){
+  .page-title{
+    font-size: 32px;
+  }
+  .page-title-small{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .blogcard-small-screen{
+    padding: 4px 8px 8px 5px;
+  }
+  .description-list{
+    padding-left: 18px;
+  }
 }

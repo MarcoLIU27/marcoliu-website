@@ -12,7 +12,7 @@ last-updated: 2020-10-30 5:55 PM
   </div>
 </div>
 
-<div class="blogcard mb-4" style="width: 100%;">
+<div class="blogcard mb-4 blogcard-small-screen" style="width: 100%;">
   <div class="card-body">
     <div class="tab-pane active overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
       <p><i>{{section.description}}</i></p>
@@ -20,9 +20,9 @@ last-updated: 2020-10-30 5:55 PM
         <div class="media mt-2">
           <!--<a href="{{ research.link }}"><img src="{{ research.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>-->
           <div class="media-body">
-            <h5 class="mt-0"><a href="{{ research.link }}" class="highlighted">{{ research.name }}</a></h5>
+            <h5 class="mt-0" style="line-height: 1.5;"><a href="{{ research.link }}" class="highlighted">{{ research.name }}</a></h5>
             <h6 class="mt-0">{{ research.position }} | Supervisor: {{ research.supervisor }}</h6>
-            <ul>
+            <ul class="description-list">
               {% for description in research.description %}
               <li>{{ description }}</li>
               {% endfor %}
