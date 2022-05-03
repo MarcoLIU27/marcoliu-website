@@ -5,7 +5,7 @@ description: "A Preset Post from Jekyll"
 type: card-dated
 date:   2020-10-29 20:01:21 -0400
 categories: jekyll update
-image: http://placehold.it/750X300?text=Header+Image # for local images, place in /assets/img/posts/
+image:  # for local images, place in /assets/img/posts/
 caption:
 last-updated: 2020-10-26 20:01:21 -0400
 categories: post

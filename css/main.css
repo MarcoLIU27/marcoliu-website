@@ -586,10 +586,9 @@ font-weight: 600;
 }
 
 .blogcard img{
-position: absolute;
-top: 20px;
-right: 15px;
-max-height: 120px;
+padding: 15px 0 15px 0;
+max-height: 400px;
+max-width: 100%;
 }
 
 .card-1{
