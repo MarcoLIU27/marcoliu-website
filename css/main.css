@@ -751,7 +751,28 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
   background-image: linear-gradient( white 50%, rgb(225, 102, 61) 50%);
   background-size: auto 175%;
 }
+a[data-fancybox] img {
+  cursor: zoom-in;
+}
 
+.thumbnails-1{
+  width: 300px;
+  padding: 1rem;
+}
+
+.thumbnails-2{
+  width: 200px;
+  padding: 1rem;
+}
+
+.thumbnails-3{
+  height: 300px;
+  padding: 1rem;
+}
+
+.rounded-pic{
+  border-radius: 1.5rem;
+}
 
 @media (max-width:500px){
   .page-title{

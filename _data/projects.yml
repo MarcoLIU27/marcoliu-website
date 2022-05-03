@@ -1,4 +1,17 @@
 - name: >
+    Twitter Sentiment Prediction
+  nature: Group Project
+  id: project11
+  time: May 2022
+  description:
+    - Working Process...
+  date: true
+  link: /projects.html
+  image:  http://placehold.it/100x100
+  tech:
+    - Python
+
+- name: >
     SLOP Game
   nature: Group Project
   id: project10
