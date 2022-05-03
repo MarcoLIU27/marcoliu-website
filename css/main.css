@@ -746,6 +746,13 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
 .fa-caret-down:before{
   color:white;
 }
+.entry-title{
+  line-height: 1.5;
+  background-image: linear-gradient( white 50%, rgb(225, 102, 61) 50%);
+  background-size: auto 175%;
+}
+
+
 @media (max-width:500px){
   .page-title{
     font-size: 32px;

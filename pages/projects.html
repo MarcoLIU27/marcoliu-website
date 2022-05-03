@@ -2,48 +2,38 @@
 layout: page
 permalink: /projects.html
 title: Course Projects
-description: I write about cyber threat intelligence
-header-img:  
+header-img: 
 last-updated: 2020-10-30 5:55 PM
 ---
+{% assign theme = site.data.themes[site.ui_theme] %}
 <div class="blogcard card-2 mb-4" style="width: 100%;">
-    <div class="card-body">
-      <div class="card-title text-center page-title">{{ page.title }}</div>
-    </div>
+  <div class="card-body">
+    <div class="card-title text-center page-title">{{ page.title }}</div>
+  </div>
 </div>
-<!-- Page Content -->
-  {% if site.twitter-widget %}
-  <div class="row">
-    <!-- Blog Entries Column -->
-    <div class="col-md-8">
-          <div class="col-md-12">
-          {% for post in site.posts %}
-              <div class="blogcard {{post.card}} mb-4 mt-4" style="width: 100%;">
-                <h3><a href="{{ post.url }}" class="nohighlight">{{ post.title }}</a></h3>
-                  <a href="#" class="badge badge-primary" style="background-color: rgba(78, 34, 208, 0.1);color: #4e22d0;">{{post.tag}}</a>  
-                <p>{{post.description}}</p>
-                <p><i>{{post.lead}}</i></p>
-              </div>
-          {% endfor %}
-          </div>
-    </div>
-    <!-- Twitter Side Widget -->
-    <div class="card my-4 shadow border-0">
-        <a class="twitter-timeline" data-height="2300" data-theme="light" href="https://twitter.com/{{ site.twitter }}?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>           
+
+{% for projects in site.data.projects %}
+<div class="blogcard mb-4 blogcard-small-screen" style="width: 100%;">
+  <div class="card-body">
+    <div class="media mt-2">
+        <!--<a href="{{ projects.link }}"><img src="{{ projects.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>-->
+        <div class="media-body">
+          <h5 class="mt-0"><span class="entry-title">{{ projects.name }}</span></h5>
+          <h6 class="mt-0">{{ projects.nature }} | {{ projects.time }}</h6>
+          <ul>
+            {% for description in projects.description %}
+            <li>{{ description }}</li>
+            {% endfor %}
+          </ul>
+          {% if projects.tech %}
+            <h6>Technologies</h6>
+            {% for tech in projects.tech %}
+            <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ tech }}</span>
+            {% endfor %}
+          {% endif %}
+        </div>
     </div>
   </div>
-  {% else %}
-    <!-- Blog Entries Column -->
-      <div class="col-md-12">
-      {% for post in site.posts %}
-          <div class="blogcard {{post.card}} mb-4 mt-4" style="width: 100%;">
-            <h3><a href="{{ post.url }}" class="nohighlight">{{ post.title }}</a></h3>
-              <a href="#" class="badge badge-primary" style="background-color: rgba(78, 34, 208, 0.1);color: #4e22d0;">{{post.tag}}</a>  
-            <p>{{post.description}}</p>
-            <p><i>{{post.lead}}</i></p>
-          </div>
-      {% endfor %}
-      </div>
-    </div>
-  {% endif %}
+</div>
+{% endfor %}
 
