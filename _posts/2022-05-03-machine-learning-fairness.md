@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Machine Learning Fairness: Lessons Learned"
-description: "My Visit Report for the course University and Society"
-date: 2022-05-03 20:01:21 +1000
+description: "My visit report for University and Society course"
+date: 2022-05-03 +1000
 type: card-img-top
 categories: latin text
 image: /assets/img/posts/fairness.png # for local images, place in /assets/img/posts/
@@ -48,10 +48,15 @@ Then how to solve such problems? How can we collect completely diverse datasets 
 Besides, Google has released their first Data Card in Oct. 2018 as part of the Open Images Extended Dataset (see Fig.4). This Data Card can answer questions like how the data was sourced and what the distribution is. For the Open Images Extended Dataset, while you can find the geographic distribution is extremely diverse, 80% of the data comes from India. Such information is important for people who want to use this dataset for training or testing.
  <div style="text-align: center;">
     <img src="/assets/img/posts/fairness-4.png" style="width: 90%;" class="d-inline-block align-top" alt="" loading="lazy">
-    <p>Fig.3 ML bias caused by skewed data collection</p>
+    <p>Fig.4 Google Data Card</p>
 </div>
 In conclusion, it’s of great significance to reduce bias in machine learning and we are glad to see that Google keeps trying to develop fairer products that work equitably for everyone. We hope that there will be more measures devoted to ML fairness in the future.
 
 #### Reference
 
+\[1\] Z. Zhong, “A Tutorial on Fairness in Machine Learning,” towards data science, Oct. 22, 2018. \[Online]. Available: [https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb](https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb). \[Accessed Apr. 29, 2021\].
+
+\[2\] N. Mehrabi, F. Morstatter, N. Saxena, K. Lerman and A. Galstyan, “A Survey on Bias and Fairness in Machine Learning,” arXiv, Sep. 17, 2019. \[Online\]. Available: [https://arxiv.org/pdf/1908.09635.pdf](https://arxiv.org/pdf/1908.09635.pdf). \[Accessed Apr. 29, 2021\].
+
+\[3\] Machine Learning Fairness: Lessons Learned (Google I/O'19), YouTube, May 10, 2019. \[Online\]. Available: [https://www.youtube.com/watch?v=6CwzDoE8J4M&list=PLOU2XLYxmsILVTiOlMJdo7RQS55jYhsMi&index=80](https://www.youtube.com/watch?v=6CwzDoE8J4M&list=PLOU2XLYxmsILVTiOlMJdo7RQS55jYhsMi&index=80). \[Accessed Apr. 29, 2021\].
 
