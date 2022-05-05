@@ -46,7 +46,10 @@ Let's talk in depth about ML bias caused by skewed data collection. Figure 3 is 
 </div>
 Then how to solve such problems? How can we collect completely diverse datasets for our models? Since we don't always know what we are missing from the beginning and where are our blind spots, it's always important to test and measure these issues for various groups, so that we can identify where our model may not perform well and where we may want to consider more principled improvements.
 Besides, Google has released their first Data Card in Oct. 2018 as part of the Open Images Extended Dataset (see Fig.4). This Data Card can answer questions like how the data was sourced and what the distribution is. For the Open Images Extended Dataset, while you can find the geographic distribution is extremely diverse, 80% of the data comes from India. Such information is important for people who want to use this dataset for training or testing.
- 
+ <div style="text-align: center;">
+    <img src="/assets/img/posts/fairness-4.png" style="width: 90%;" class="d-inline-block align-top" alt="" loading="lazy">
+    <p>Fig.3 ML bias caused by skewed data collection</p>
+</div>
 In conclusion, it’s of great significance to reduce bias in machine learning and we are glad to see that Google keeps trying to develop fairer products that work equitably for everyone. We hope that there will be more measures devoted to ML fairness in the future.
 
 #### Reference
