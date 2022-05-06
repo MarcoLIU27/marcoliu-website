@@ -5,18 +5,19 @@
   color:rgb(0, 0, 0);
   padding:30px 20px;
 }
-.timeline-container ul{
+.timeline-container-ul{
   list-style-type:none;
   border-left:2px solid #10292e;
   padding:10px 5px;
 }
-.timeline-container ul li{
+.timeline-container-ul-li{
   padding:20px 20px;
   position:relative;
   cursor:pointer;
   transition:.5s;
+  margin-top: 10px;
 }
-.timeline-container ul li span{
+.timeline-container-ul-li span{
   display:inline-block;
   background-color:#3cb0aa;
   color: white;
@@ -26,16 +27,16 @@
   text-align:center;
   margin-bottom: 0.5rem;
 }
-.timeline-container ul li .content h3{
+.timeline-container-ul-li .content h3{
   color:#146284;
   font-size:17px;
   padding-top:5px;
 }
-.timeline-container ul li .content p{
+.timeline-container-ul-li .content p{
   padding:5px 0px 15px 0px;
   font-size:15px;
 }
-.timeline-container ul li:before{
+.timeline-container-ul-li:before{
   position:absolute;
   content:'';
   width:10px;
@@ -46,11 +47,11 @@
   top:28px;
   transition:.5s;
 }
-.timeline-container ul li:hover{
+.timeline-container-ul-li:hover{
   background-color:#c4ddd8;
   border-radius:20px;
 }
-.timeline-container ul li:hover:before{
+.timeline-container-ul-li:hover:before{
   background-color:#10292e;
 }
 .awards-title{
@@ -62,11 +63,11 @@
     width:100%;
     padding:30px 5px 30px 10px;
   }
-  .timeline-container ul li .content h3{
+  .timeline-container-ul-li .content h3{
     color:#34ace0;
     font-size:15px;
   }
-  .timeline-container ul li span {
+  .timeline-container-ul-li span {
     border-radius: 14px;
     padding: 4px 8px;
     font-size: 11px;

@@ -19,8 +19,11 @@ links:
 - title: Awards
   url: awards.html
 
-- title: Vitae
-  url: /assets/pdf/cv-hyliu.pdf
+#- title: Vitae
+#  url: /assets/pdf/cv-hyliu.pdf
+
+- title: Activities
+  url: activities.html
 
 - title: Contact
   url: contact.html

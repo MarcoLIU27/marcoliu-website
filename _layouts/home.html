@@ -154,7 +154,14 @@ layout: default
                 <p><i>{{section.description}}</i></p>
                 <div class="list-group">
                 {% for courses in site.data.courses %}
-                  <button type="button" class="list-group-item text-left">{{ courses.Course }}</button>
+                  <button type="button" class="list-group-item text-left">
+                    {% if courses.School == "CUHK" %}
+                    <img src="/assets/img/icons/cuhk-logo.png" class="mr-3" style="width: 30px;"alt="...">
+                    {% elsif courses.School == "UMel" %}
+                    <img src="/assets/img/icons/unimelb-logo.jpg" class="mr-3" style="width: 30px;"alt="...">
+                    {% endif %}
+                    {{ courses.Course }}
+                  </button>
                 {% endfor %}
                 </div>
               </div>
