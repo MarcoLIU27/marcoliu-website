@@ -1,0 +1,33 @@
+---
+layout: page
+permalink: /activities.html
+title: Extra-curricular Activities
+description: Extra-curricular Activities
+header-img:  
+last-updated: 2020-10-30 5:55 PM
+---
+<div class="blogcard card-1 mb-4" style="width: 100%;">
+    <div class="card-body">
+      <div class="card-title text-center page-title-small">{{ page.title }}</div>
+    </div>
+  </div>
+<div class="timeline-container">
+    <ul class="timeline-container-ul">
+      {% for activities in site.data.activities %}
+      <li class="timeline-container-ul-li">
+        <span>{{ activities.StartTime }} - {{ activities.EndTime }}</span>
+        <div class="content">
+          <div class="awards-title">{{ activities.Name }}</div>
+          <h3>
+            {{ activities.Position }}
+          </h3>
+          <ul>
+            {% for Description in activities.Description %}
+            <li>{{ Description }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
