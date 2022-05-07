@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/tcbutler320/Dumbarton#readme",
   "dependencies": {
-    "@fancyapps/ui": "^4.0.26"
+    "@fancyapps/ui": "^4.0.26",
+    "express-flash": "^0.0.2"
   }
 }
