@@ -4,7 +4,6 @@ title:  "Welcome to Jekyll!"
 description: "A Preset Post from Jekyll"
 type: card-dated
 date:   2020-10-29 20:01:21 -0400
-categories: jekyll update
 image:  # for local images, place in /assets/img/posts/
 caption:
 last-updated: 2020-10-26 20:01:21 -0400

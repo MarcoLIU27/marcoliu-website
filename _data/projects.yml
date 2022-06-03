@@ -1,10 +1,40 @@
 - name: >
+    Yinsh Game AI Agent
+  nature: Group Project
+  id: project12
+  time: May 2022
+  description:
+    - Working Process...
+    - MTCS...
+  date: true
+  link: /projects.html
+  image:  https://placehold.it/100x100
+  tech:
+    - Python
+
+- name: >
+    Oh! Heaven Game
+  nature: Group Project
+  id: project12
+  time: May 2022
+  description:
+    - Working Process...
+    - Software design and modelling
+  date: true
+  link: /projects.html
+  image:  https://placehold.it/100x100
+  tech:
+    - Java
+    - draw.io
+
+- name: >
     Twitter Sentiment Prediction
   nature: Group Project
   id: project11
   time: May 2022
   description:
     - Working Process...
+    - NLP
   date: true
   link: /projects.html
   image:  https://placehold.it/100x100
@@ -29,7 +59,7 @@
     Diabetes-Home: A Diabetes Management Web Application
   nature: Group Project
   id: project9
-  time: Ongoing
+  time: May 2022
   description:
     - Collaborated with team members to build a web application which allow diabetes patients to record health data, 
       contact with clinicians and allow clinicians to monitor patients' data and take notes.

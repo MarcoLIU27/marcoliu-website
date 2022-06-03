@@ -8,9 +8,9 @@ layout: page
 <div class="blogcard {{ page.card }} mb-4 mt-4" style="width: 100%;">
   <div class="card-body">
     <h5 class="card-title text-center" style="font-size:{{ theme.post-tag-size }};">{{ page.tag }}</h5>
-    <h5 class="card-title text-center" style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};">{{ page.title }}</h5>
+    <h5 class="card-title text-center post-title">{{ page.title }}</h5>
     <h6 class="card-subtitle text-center" style="font-size:{{ theme.post-author-size }};">Author: {{page.author}} | Published {{page.date}}</h6>
-    {% include social-cards-copy.html %}
+    <!--{% include social-cards-copy.html %}-->
   </div>
 </div>
 
@@ -20,3 +20,43 @@ layout: page
   </div>
 </div>
 
+<!--<div>
+  <section class="post-footer-item comment">
+  <div id="gitalk_container"></div>
+  <div id="disqus_thread"></div>
+  </section>
+</div>
+
+  <script>
+    var gitalk = new Gitalk({
+      id: location.pathname,
+      clientID: '{{ site.gitalk_client_id }}', 
+      clientSecret: '{{ site.gitalk_client_secret }}', 
+      repo: '{{ site.gitalk_repo }}', 
+      owner: '{{ site.gitalk_owner }}',
+      admin: '{{ site.gitalk_admin }}',
+      id: location.pathname,
+      distractionFreeMode: '{{ site.gitalk_distraction_mode }}'
+    })
+
+    gitalk.render('disqus_thread')
+  </script>-->
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    
+    var disqus_config = function () {
+    //this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = '{{ page.title }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://marcoliu.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
