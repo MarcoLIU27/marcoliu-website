@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-    <h1><a href="https://marcoliu.com">Marco Liu Personal Page</a><h1>
-    <h3>based on<h3>
+    <h1 align="center"><a href="https://marcoliu.com">Marco Liu Personal Page</a></h1>
+    <h3 align="center">based on<h3>
     <h1 align="center">Dumbarton</h1>
     <p align="center">
         A simple Jekyll theme for academics
