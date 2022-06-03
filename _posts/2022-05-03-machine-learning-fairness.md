@@ -8,7 +8,7 @@ categories: latin text
 image: /assets/img/posts/fairness.png # for local images, place in /assets/img/posts/
 caption:
 last-updated: 
-categories: post ipsum
+categories: post
 tag: Machine Learning
 author: Marco Liu
 card: card-2

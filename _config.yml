@@ -46,7 +46,7 @@ ui_theme: abyss                                 # Create your own theme by setti
 # -----------BLOG SETTINGS---------------#
 #========================================#
 
-tags:  post jekyll styleguide ipsum
+tags:  post jekyll styleguide music
 twitter-widget: false # true,false                  # Used to show your twitter timeline on blog home page
 
 comments: true                                     # Used to enable comments on blog posts
