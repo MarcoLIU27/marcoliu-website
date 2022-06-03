@@ -20,3 +20,28 @@ layout: page
   </div>
 </div>
 
+<div>
+  {% if site.comments %}
+  <section class="post-footer-item comment">
+  <div id="gitalk_container"></div>
+  <div id="disqus_thread"></div>
+  </section>
+  {% endif %}
+</div>
+
+{% if site.comments %}
+  <script>
+    var gitalk = new Gitalk({
+      id: location.pathname,
+      clientID: '{{ site.gitalk_client_id }}', 
+      clientSecret: '{{ site.gitalk_client_secret }}', 
+      repo: '{{ site.gitalk_repo }}', 
+      owner: '{{ site.gitalk_owner }}',
+      admin: '{{ site.gitalk_admin }}',
+      id: location.herf,
+      distractionFreeMode: '{{ site.gitalk_distraction_mode }}'
+    })
+
+    gitalk.render('disqus_thread')
+  </script>
+  {% endif %}

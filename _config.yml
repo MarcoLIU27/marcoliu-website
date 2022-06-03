@@ -49,12 +49,12 @@ ui_theme: abyss                                 # Create your own theme by setti
 tags:  post jekyll styleguide ipsum
 twitter-widget: false # true,false                  # Used to show your twitter timeline on blog home page
 
-comments: false                                     # Used to enable comments on blog posts
-gitalk_client_id:             
-gitalk_client_secret:    
-gitalk_repo:
-gitalk_owner: 
-gitalk_admin: 
+comments: true                                     # Used to enable comments on blog posts
+gitalk_client_id: Iv1.ec3a1d876dec10ee         
+gitalk_client_secret: c36982f09f662fd104c5409207bf070c3990d42e
+gitalk_repo: marcoliu.com
+gitalk_owner: Marco Liu
+gitalk_admin: MarcoLIU27
 gitalk_distraction_mode: false
 
 # =======================================#
@@ -133,7 +133,7 @@ scholar:
 # ------------CDN SETTINGS---------------#
 #-------------Used to generate icons-----#
 #========================================#
-font_awesome_id: 32a2b2a489                       # Register for free at https://fontawesome.com/ to get your id
+font_awesome_id: 16f88970ee                       # Register for free at https://fontawesome.com/ to get your id
 
 
 # =======================================#        # For more information about these settings, visit https://htmlhead.dev #
