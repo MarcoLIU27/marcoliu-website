@@ -1,6 +1,4 @@
-#Marco Liu Personal Page
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e0b5688a-ed66-4b68-a882-24c59fa03c55/deploy-status)](https://marcoliu.com)
-
+<h1><a href="https://marcoliu.com">Marco Liu Personal Page</a><h1>
 
 <!-- PROJECT LOGO -->
 <p align="center">
