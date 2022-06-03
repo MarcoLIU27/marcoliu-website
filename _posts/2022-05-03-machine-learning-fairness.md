@@ -4,7 +4,6 @@ title:  "Machine Learning Fairness: Lessons Learned"
 description: "My visit report for University and Society course"
 date: 2022-05-03 +1000
 type: card-img-top
-categories: latin text
 image: /assets/img/posts/fairness.png # for local images, place in /assets/img/posts/
 caption:
 last-updated: 
