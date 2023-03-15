@@ -1,88 +1,120 @@
-- Course: COMP90054 AI Planning for Autonomy <em>(Graduate Course)</em>
+- Course: Mobile Computing & Applications Development
+  School: CUHK
+  description:
+
+- Course: Image Processing and Computer Vision <em>(Graduate Course)</em>
+  School: CUHK
+  description:
+
+- Course: Introduction to Database Systems
+  School: CUHK
+  description:
+
+- Course: Principles of Programming Languages
+  School: CUHK
+  description:
+
+- Course: Graduation Thesis
+  School: CUHK
+  description:
+
+- Course: Principles of Computer Graphics
+  School: CUHK
+  description:
+
+- Course: Techniques for Data Mining <em>(Graduate Course)</em>
+  School: CUHK
+  description:
+
+- Course: AI Planning for Autonomy <em>(Graduate Course)</em>
+  School: CUHK
+  description:
+
+- Course: AI Planning for Autonomy <em>(Graduate Course)</em>
   School: UMel
   description:
 
-- Course: COMP30027 Machine Learning
+- Course: Machine Learning
   School: UMel
   description:
 
-- Course: SWEN30006 Software Modelling and Design
+- Course: Software Modelling and Design
   School: UMel
   description:
 
-- Course: INFO30005 Web Information Technologies
+- Course: Web Information Technologies
   School: UMel
   description:
 
-- Course: ESTR3102 Introduction to Operating Systems
+- Course: Introduction to Operating Systems
   School: CUHK
   description:
 
-- Course: CSCI3230 Fundamentals of Artificial Intelligence
+- Course: Fundamentals of Artificial Intelligence
   School: CUHK
   description:
 
-- Course: CSCI3160 Design and Analysis of Algorithms
+- Course: Design and Analysis of Algorithms
   School: CUHK
   description:
 
-- Course: CSCI3130 Formal Languages and Automata Theory
+- Course: Formal Languages and Automata Theory
   School: CUHK
   description:
 
-- Course: CSCI2040 Introduction to Python
+- Course: Introduction to Python
   School: CUHK
   description:
 
-- Course: ESTR2020 Statistics for Engineers
+- Course: Statistics for Engineers
   School: CUHK
   description:
 
-- Course: CSCI3251 Engineering Practicum
+- Course: Engineering Practicum
   School: CUHK
   description:
 
-- Course: CSCI3250 Computers and Society
+- Course: Computers and Society
   School: CUHK
   description:
 
-- Course: CSCI2100 Data Structures
+- Course: Data Structures
   School: CUHK
   description:
 
-- Course: ESTR2018 Probability for Engineers
+- Course: Probability for Engineers
   School: CUHK
   description:
 
-- Course: ESTR2004 Discrete Mathematics for Engineers
+- Course: Discrete Mathematics for Engineers
   School: CUHK
   description:
 
-- Course: ENGG2020 Digital Logic and Systems
+- Course: Digital Logic and Systems
   School: CUHK
   description:
 
-- Course: CSCI1130 Introduction to Computing Using Java
+- Course: Introduction to Computing Using Java
   School: CUHK
   description:
 
-- Course: ESTR1006 Multivariable Calculus for Engineers
+- Course: Multivariable Calculus for Engineers
   School: CUHK
   description:
 
-- Course: ESTR1005 Linear Algebra for Engineers
+- Course: Linear Algebra for Engineers
   School: CUHK
   description:
 
 - Course: >
-    PHYS1110 Engineering Physics: Mechanics and Thermodynamics
+   Engineering Physics: Mechanics and Thermodynamics
   School: CUHK
   description:
 
-- Course: MATH1510 Calculus for Engineers
+- Course: Calculus for Engineers
   School: CUHK
   description:
 
-- Course: ESTR1002 Problem Solving By Programming
+- Course: Problem Solving By Programming
   School: CUHK
   description:

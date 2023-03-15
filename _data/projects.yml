@@ -1,82 +1,125 @@
 - name: >
-    Yinsh Game AI Agent
+    Space Travel Game
   nature: Group Project
-  id: project12
-  time: May 2022
+  id: project14
+  time: November - December 2022
   description:
-    - Working Process...
-    - MTCS...
+    - Implemented a Space Travel Game based on OpenGL and C++ from scratch, including object rendering, transformation, lighting, texture mapping, skybox, shader, and interaction
+  date: true
+  link: /projects.html
+  image:  https://placehold.it/100x100
+  tech:
+    - OpenGL
+    - C++
+  
+- name: >
+    The Prediction of Summer Olympics Medal Counts
+  nature: Individual Project
+  id: project13
+  time: October - December 2022
+  description:
+    - Predicted countries' summer Olympics medal counts based on different fields of data
+    - Applied various data processing and analysis techniques, such as correlation analysis, to analyze possible factors contributing to the summer Olympics medal counts
+    - Implemented Linear Regression, Decision Tree, and Neural Network Classifiers to predict 2020 Tokyo Olympic medal counts, and analyzed their performances
   date: true
   link: /projects.html
   image:  https://placehold.it/100x100
   tech:
     - Python
+    - Data Mining
+    - Machine Learning
 
 - name: >
-    Oh! Heaven Game
+    Yinsh Game AI Agent
+  nature: Group Project
+  id: project13
+  time: April - May 2022
+  description:
+    - Implemented an autonomous agent that can play and compete in a tournament for the game Yinsh
+    - Applied various AI techniques, including Monte Carlo Tree Search, Alpha-beta Pruning Minimax, A Star, and Greedy BFS
+    - Designed heuristic functions and reward shaping on nodes expansion to improve the performance of the agent
+    - Analyzed design decisions, strengths and weaknesses of different techniques, challenges, and improvements
+  date: true
+  link: /projects.html
+  image:  https://placehold.it/100x100
+  tech:
+    - Python
+    - MTCS
+    - Reinforcement Learning
+
+- name: >
+    "Oh! Heaven" Game
   nature: Group Project
   id: project12
   time: May 2022
   description:
-    - Working Process...
-    - Software design and modelling
+    - Applied software engineering knowledge, design patterns and principles (e.g., Strategy Factory, Singleton, Information Expert, Polymorphism, and Observer) to refactor and extend the system of the game to support new behaviours
+    - Ploted the UML design class diagram to reflect the actual implementation of the changed system, and the design sequence diagram to demonstrate how the software objects collaborated
   date: true
   link: /projects.html
   image:  https://placehold.it/100x100
   tech:
     - Java
+    - GRASP patterns
+    - GoF Patterns
+    - Software Modelling and Design
     - draw.io
 
 - name: >
     Twitter Sentiment Prediction
   nature: Group Project
   id: project11
-  time: May 2022
+  time: April - May 2022
   description:
-    - Working Process...
-    - NLP
+    - Developed a Twitter sentiment classifier based on the given dataset
+    - Implemented different machine learning methods, including Naïve Bayes, Logistic Regression, SVM, and Stacking Model, compared and analyzed their performances, advantages, and limitations on this task
+    - Implemented different data preprocessing techniques (e.g., stop-words removal, tweet tokenization, stemming, and lemmatization), feature extractors (e.g., Bag-of-Words, TFIDF, unigrams, and bigrams), and evaluation metrics; analyzed the critical factors and reasons for improving model performance
+    - Ranked 8th out of 343 groups in the Kaggle prediction competition of the course
   date: true
   link: /projects.html
   image:  https://placehold.it/100x100
   tech:
     - Python
+    - Machine Learning
+    - NLP
 
 - name: >
-    SLOP Game
+    "Snakes and Ladders on a Plane" Game
   nature: Group Project
   id: project10
   time: April 2022
   description:
-    - Working Process...
+    - Applied software engineering knowledge, design patterns and principles to refactor and extend the system of the game to support new behaviours
+    - Ploted the domain class diagram, design class diagram to reflect the actual implementation of the changed system, and the design sequence diagram to demonstrate how the software objects collaborated
   date: true
   link: /projects.html
   image:  https://placehold.it/100x100
   tech:
     - Java
+    - GRASP patterns
+    - GoF Patterns
+    - Software Modelling and Design
     - draw.io
 
 - name: >
     Diabetes-Home: A Diabetes Management Web Application
   nature: Group Project
   id: project9
-  time: May 2022
+  time: March - May 2022
   description:
-    - Collaborated with team members to build a web application which allow diabetes patients to record health data, 
-      contact with clinicians and allow clinicians to monitor patients' data and take notes.
-    - Designed UX/UI prototype of the web app and made a clickable prototype using Adobe XD.
-    - Worked on the front-end of the website using HTML, CSS, JavaScript and Handlebars.
+    - Participated in building a web application that allows diabetes patients to record health data, contact clinicians, and enable clinicians to monitor patients' data and take notes (https://diabetehome-team-nicola.herokuapp.com/)
+    - Worked on the front end, designed the UX/UI prototype of the web app, and made a clickable prototype using Adobe XD
+    - Built the back end of the website using Node.js, Express, Handlebars, JavaScript, and managed the data using MongoDB Atlas and Mongoose, and deployed the website on Heroku
   date: true
   link: /projects.html
   image:  https://placehold.it/100x100
   tech:
     - Adobe XD
-    - HTML
-    - CSS
+    - HTML/CSS
     - JavaScript
     - HandleBars
     - MongoDB
     - Heroku
-
 
 - name: MLFQ Scheduler
   nature: Individual Project
@@ -92,7 +135,7 @@
   tech:
     - C
     - Linux
-    - Ubuntu
+    - Operation System
 
 - name: Research on Daily Activities and Sleep Quality
   nature: Group Project
@@ -108,6 +151,7 @@
   link: /projects.html
   image:
   tech:
+    - Statistics
     - LaTeX
 
 - name: >
@@ -139,6 +183,7 @@
   link: /projects.html
   image:
   tech:
+    - Internet Privacy
 
 - name: Reversi Game
   nature: Individual Project
@@ -166,6 +211,7 @@
   image:
   tech:
     - Python
+    - Probability
     - LaTeX
 
 - name: Conway's Game of Life and Turing-completeness
@@ -182,6 +228,7 @@
   image:  
   tech:
     - Python
+    - Linear Algebra
     - Adobe Illustrator
 
 - name: Checkers AI Player Program
@@ -189,9 +236,9 @@
   id: project1
   time: November 2019
   description:
-    - Developed a checkers program using C which supports both human-human players mode and human-AI players mode.
-    - Self-studied and implemented Alpha-beta pruning algorithm in the AI player part to make the AI player execute the best possible strategy in a limited time.
-    - My AI Player ranked 2nd out of 45 students in the AI tournament of the course.
+    - Developed a checkers program in C language that supports both human-human players mode and human-AI players mode
+    - Implemented the Alpha-beta pruning algorithm to allow AI players to execute the best strategy in 5 seconds via lab PC
+    - Ranked 2nd out of 45 students in the AI player tournament of the course.
   date: true
   link: /projects.html
   image: 

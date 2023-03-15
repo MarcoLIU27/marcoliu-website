@@ -1,15 +1,70 @@
+- name: Video Analysis and Computer Vision for AI Interview System
+  id: research1
+  position: Capstone Project/Graduation Thesis
+  description:
+    - Built a video processing and analysis module into an AI interview system for CUHK that provides AI assessments of interviewees in terms of their facial/body behaviors, sentiments, tone of voice, and contents
+    - Designed the architecture and workflow of the video module and integrated it into the system pipeline
+    - Conducted face detection, recognition, and analysis using Microsoft Azure and different Python libraries/frameworks such as MediaPipe and FER, and subsequently processed and analyzed the raw data to obtain higher-level information
+    - Designed video behavior evaluation criteria and implemented AI assessments in five domains (head, eyes, accessories, facial expressions, and hands/body)
+    - Established rubrics for AI comments based on module testing results for real-world interview videos
+    - Collaborated with back-end and front-end to ensure compatibility of the module with system requirements
+  supervisor: Irwin King, Professor, CUHK
+  location: The Chinese University of Hong Kong, Hong Kong
+  date: true
+  link: /research.html
+  image: 
+  StartDate: Sep. 2022
+  EndDate: Present
+  tech: 
+    - Python
+    - Microsoft Azure
+    - Machine Learning
+    - Computer Vision
+    - Video Analysis
+    - Software Engineering
+    - System Design
+    - React
+    - Node.js
+    - MySQL
+    - JavaScript
+    - Git
+
+
+- name: Deep Learning-Based Time Series Analysis and Forecasting
+  id: research2
+  position: Summer Research Intern & Term-time Student Helper
+  description:
+    - Built a large-scale repository for time-series analysis and forecasting on GitHub, including different state-of-the-art deep learning models
+    - Collaborated on creating a systematic pipeline to utilize and evaluate time series prediction models, implementing unified data preprocessing procedures, model instantiation interfaces, and standardized evaluation procedures
+    - Reproduced and implemented various spatio-temporal traffic prediction models and dataset loaders; modified the models to be compatible with repository interfaces, configurable, and adaptable to different datasets and tasks
+    - Implemented model evaluations and comparisons to ensure the characteristics and the original results of the models are well preserved
+  supervisor: Qiang Xu, Professor, CUHK
+  location: The Chinese University of Hong Kong, Hong Kong
+  date: true
+  link: /research.html
+  image: 
+  StartDate: May 2022
+  EndDate: Oct. 2022
+  tech: 
+    - Python
+    - PyTorch
+    - Linux
+    - Machine Learning
+    - Deep Learning
+    - Time-series Forcasting
+    - Anaconda
+    - Git
+
 - name: Simultaneously Deblurring and Segmentation for Cataract Surgical Instruments
   id: research1
   position: Summer Research Intern
   description:
-    - Worked in a group on deblurring and segmentation for cataract surgical instruments, in which a spatio-temporal
-      RNN was proposed to tackle motion blurring and occlusion problems in cataract surgical instruments segmentation.
-    - Designed and conducted experiments on model evaluation and comparison using TensorFlow, PyTorch and Docker.
-    - Proposed ideas for the motivation of the project, designed and constructed the dataset, and improved the
-      performance of the proposed networks.
-    - Wrote weekly reports, submitted progress and final reports, and gave a video presentation to the faculty.
-    - Worked on a paper as the second author which has been submitted to MICCAI 2022 and is under review.
-  supervisor: Shing Shin Cheng, Assistant Professor
+    - Worked on a spatio-temporal information-based network for cataract surgical instrument segmentation, consisting of a deblurring module and a subsequent segmentation module, with PyTorch and TensorFlow frameworks
+    - Improved the performance of the segmentation network by incorporating leading-edge deep learning modules
+    - Designed and conducted experiments on model evaluation and comparison, successfully proved the strength of the network under different special scenarios
+    - Designed and constructed a cataract surgical instrument dataset for integrating both deblurring and segmentation procedures to demonstrate the holistic novelty of the network
+    - Investigated the background and current state of research in the field of surgical skill assessment, proposed the motivation and the future research directions for the project
+  supervisor: Shing Shin Cheng, Assistant Professor, CUHK
   location: Surgical Robotics & Devices Lab, The Chinese University of Hong Kong, Hong Kong
   date: true
   link: /research.html
@@ -24,4 +79,7 @@
     - Linux
     - Anaconda
     - LaTeX
+    - Machine Learning
+    - Deep Learning
+    - Computer Vision
 
