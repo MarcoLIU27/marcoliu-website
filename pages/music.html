@@ -15,18 +15,16 @@ last-updated: 2020-10-30 5:55 PM
   
     <!-- Blog Entries Column -->
       <div>
-      {% for post in site.posts %}
-        {% if post.categories contains 'music' %}
+      {% for post in site.categories.music %}
           <div class="blogcard {{post.card}} mb-4 mt-4" style="width: 100%;">
             <span><h3><a href="{{ post.url }}" class="nohighlight">{{ post.title }}</a></h3></span>
             {% if post.image %}
             <div><img src="{{ post.image }}"></div>
             {% endif %}
-            <a href="#" class="badge badge-primary" style="background-color: rgba(78, 34, 208, 0.1);color: #4e22d0;">{{post.tag}}</a>  
+            <a class="badge badge-primary" style="background-color: rgba(78, 34, 208, 0.1);color: #4e22d0;">{{post.tag}}</a>  
             <p>{{post.description}}</p>
             <p><i>{{post.lead}}</i></p>
           </div>
-        {% endif %}
       {% endfor %}
       </div>
     </div>

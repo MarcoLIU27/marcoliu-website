@@ -1,6 +1,6 @@
 - School: the Chinese University of Hong Kong
-  Degree: 
-  Program: Bsc. of Computer Science
+  Degree: Bachelor of Science
+  Program: Computer Science
   StartDate: Sep. 2019
   EndDate: May 2023
   Icon: /assets/img/icons/cuhk-logo.png      # Make this icon small, think 30px/30px
@@ -13,3 +13,11 @@
   EndDate: June 2022
   Icon: /assets/img/icons/unimelb-logo.jpg
   Link: https://www.unimelb.edu.au/
+
+- School: Peking University
+  Degree: 
+  Program: Summer School
+  StartDate: July - August 2021, July
+  EndDate: August 2020
+  Icon: /assets/img/icons/pku-logo.png
+  Link: http://summer.pku.edu.cn/

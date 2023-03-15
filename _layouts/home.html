@@ -77,7 +77,7 @@ layout: default
               <div class="tab-pane active overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
                 <p><i>{{section.description}}</i></p>
                   {% for research in site.data.research %}
-                  <div class="media mt-2">
+                  <div class="media mt-2" style="margin-bottom: 2rem">
                     <!--<a href="{{ research.link }}"><img src="{{ research.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>-->
                     <div class="media-body">
                       <h5 class="mt-0"><a href="{{ research.link }}" class="highlighted" style="line-height: 1.5">{{ research.name }}</a></h5>
@@ -107,7 +107,7 @@ layout: default
               <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
                 <p><i>{{section.description}}</i></p>
                   {% for projects in site.data.projects %}
-                  <div class="media mt-2" style="margin-bottom: 1.5rem">
+                  <div class="media mt-2" style="margin-bottom: 2rem">
                     <!--<a href="{{ projects.link }}"><img src="{{ projects.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>-->
                     <div class="media-body">
                       <h5 class="mt-0"><a href="{{ projects.link }}" class="highlighted">{{ projects.name }}</a></h5>

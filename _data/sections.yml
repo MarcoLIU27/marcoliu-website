@@ -1,6 +1,6 @@
 - name: Research
   id: research
-  description: My Research
+  description: My Research & Capstone Project
   url: research.html
   first: true
 
