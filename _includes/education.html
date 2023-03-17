@@ -2,17 +2,17 @@
   <h3 class="card-title" style="font-size:{{ theme.education-title-size }};color:{{theme.education-font-color}};padding-bottom: 0.75rem;">Education</h3>
   <ul class="list-unstyled">
   {% for entry in site.data.education %}
-    <li class="media" style="padding-bottom: 1.5rem;align-items: center;">
-      <img src="{{ entry.Icon }}" class="mr-3" style="width: 100px;"alt="...">
-      <div class="media-body">
+    <li class="media" style="padding-bottom: 1.5rem; align-items: center;">
+      <img src="{{ entry.Icon }}" class="mr-3" style="width: 80px;"alt="...">
+      <div class="media-body" style="line-height: 1.5rem;">
         <span style="font-size:{{ theme.education-entry-size }};color:{{theme.education-font-color}};padding-right:0.5rem;">{{ entry.School }}</span>
         <a href="{{ entry.Link }}" role="button" target="_blank"><i class="fas fa-external-link-alt"></i></a>
         {% if entry.Degree %}
-          <p style="font-size:{{ theme.education-section-size }};color:{{theme.education-font-color}}; margin-bottom: 0.5rem;">
+          <p style="font-size:{{ theme.education-section-size }};color:{{theme.education-font-color}}; margin-bottom: 0.3rem;">
             {{ entry.Degree }} in <i style="font-weight:500">{{ entry.Program }}</i>
           </p>
         {% else %}
-          <h5 style="font-size:{{ theme.education-section-size }};color:{{theme.education-font-color}}; line-height: 1.5rem"><i>{{ entry.Program }}</i></h5>
+          <h5 style="font-size:{{ theme.education-section-size }};color:{{theme.education-font-color}}; margin-bottom: 0.3rem;"><i>{{ entry.Program }}</i></h5>
         {% endif %}
         <p style="font-size:{{ theme.education-section-size }};color:{{theme.education-font-color}}; margin-bottom: 0;">{{ entry.StartDate}} - {{entry.EndDate}}</p>
       </div>

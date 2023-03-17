@@ -12,28 +12,75 @@ last-updated: 2020-10-30 5:55 PM
   </div>
 </div>
 
-{% for projects in site.data.projects %}
-<div class="blogcard mb-4 blogcard-small-screen" style="width: 100%;">
-  <div class="card-body">
-    <div class="media mt-2">
-        <!--<a href="{{ projects.link }}"><img src="{{ projects.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>-->
-        <div class="media-body">
-          <h5 class="mt-0"><span class="entry-title">{{ projects.name }}</span></h5>
-          <h6 class="mt-0">{{ projects.nature }} | {{ projects.time }}</h6>
-          <ul>
-            {% for description in projects.description %}
-            <li>{{ description }}</li>
-            {% endfor %}
-          </ul>
-          {% if projects.tech %}
-            <h6>Technologies</h6>
-            {% for tech in projects.tech %}
-            <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ tech }}</span>
-            {% endfor %}
-          {% endif %}
-        </div>
-    </div>
+<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+
+<h5 style="padding-top: 0.5rem; padding-left: 1.5rem">View By Categories</h5>
+<div class="project-toolbar">
+  <div class="multi-button">
+    <button href="javascript:;" class="category-btn active" style="margin: 0.5em;" data-category="all"><i class="fa fa-lightbulb-o"></i> All</button>
+    <button href="javascript:;" class="category-btn" style="margin: 0.5em;" data-category="ml"><i class="fa fa-code"></i> ML/DL</button>
+    <button href="javascript:;" class="category-btn" style="margin: 0.5em;" data-category="algo"><i class="fa fa-pencil"></i> Algorithm</button>
+    <button href="javascript:;" class="category-btn" style="margin: 0.5em;" data-category="mobile"><i class="fa fa-android"></i> Mobile</button>
+    <button href="javascript:;" class="category-btn" style="margin: 0.5em;" data-category="web"><i class="fa fa-laptop"></i> Web App</button>
+    <button href="javascript:;" class="category-btn" style="margin: 0.5em;" data-category="software"><i class="fa fa-cog "></i> Software</button>
+    <button href="javascript:;" class="category-btn" style="margin: 0.5em;" data-category="data"><i class="fa fa-bar-chart "></i> Data Analysis</button>
+    <button href="javascript:;" class="category-btn" style="margin: 0.5em;" data-category="cg"><i class="fa fa-gamepad"></i> CG</button>
+    <button href="javascript:;" class="category-btn" style="margin: 0.5em;" data-category="inno"><i class="fa fa-paper-plane-o"></i> Innovation</button>
+    <button href="javascript:;" class="category-btn" style="margin: 0.5em;" data-category="others"><i class="fa fa-pencil"></i> Others</button>
   </div>
 </div>
+
+
+{% for projects in site.data.projects %}
+  <div class="project blogcard mb-4 blogcard-small-screen" style="width: 100%;" data-filter="{{ projects.category|join:' ' }}">
+    <div class="card-body">
+      <div class="media mt-2">
+          <!--<a href="{{ projects.link }}"><img src="{{ projects.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>-->
+          <div class="media-body">
+            <h5 class="mt-0"><span class="entry-title">{{ projects.name }}</span></h5>
+            <h6 class="mt-0">{{ projects.nature }} | {{ projects.time }}</h6>
+            <ul>
+              {% for description in projects.description %}
+              <li>{{ description }}</li>
+              {% endfor %}
+            </ul>
+            {% if projects.tech %}
+              <h6>Technologies</h6>
+              {% for tech in projects.tech %}
+              <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ tech }}</span>
+              {% endfor %}
+            {% endif %}
+          </div>
+      </div>
+    </div>
+  </div>
 {% endfor %}
+
+<script>
+  $(".category-btn").on("click", function () {
+  // 由tag点击事件出发
+  var $this = $(this);
+  console.log( $this.text() );
+  if ( !$this.hasClass("active") ) {
+      // 排除当前已选tag, 新tag标记active
+      $(".category-btn").removeClass("active");
+      $this.addClass("active"); // set the active tab
+      var $filter = $this.data("category"); 
+      // 获得要筛选的tag名称
+      $filter == 'all' ? 
+          // 对all做单独判断, 基本就是全展现
+          $(".project")
+          .not(":visible")
+          .fadeIn() 
+      : // 否则的话, 利用filter进行tag匹配的判断
+          $(".project")
+          .fadeOut(0)
+          .filter(function () {
+              // 判断post中是否包含此tag, 这里用array来判断而不是直接文本判断就是为了防止出现类似tag和tags这种局部包含的误判
+              return $(this).data("filter").split(" ").indexOf($filter)!=-1; 
+          })
+          .fadeIn(1000); 
+  } // endif
+}); // endon
+</script>
 

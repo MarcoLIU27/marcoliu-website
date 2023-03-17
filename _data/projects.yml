@@ -1,7 +1,38 @@
 - name: >
+    CU Walk: A Mobile Application
+  nature: Group Project
+  id: project16
+  category: 
+    - mobile
+  time: Febuary 2023 - Present
+  description:
+    - Ongoing
+  link: /projects.html
+  image:  https://placehold.it/100x100
+  tech:
+    - Java
+    - Android Studio
+
+- name: >
+    Online Book Ordering System
+  nature: Group Project
+  id: project15
+  category: 
+    - software
+  time: Febuary 2023 - Present
+  description:
+    - Ongoing
+  link: /projects.html
+  image:  https://placehold.it/100x100
+  tech:
+    - Java
+    - MySQL
+
+- name: >
     Space Travel Game
   nature: Group Project
   id: project14
+  category: cg
   time: November - December 2022
   description:
     - Implemented a Space Travel Game based on OpenGL and C++ from scratch, including object rendering, transformation, lighting, texture mapping, skybox, shader, and interaction
@@ -16,6 +47,9 @@
     The Prediction of Summer Olympics Medal Counts
   nature: Individual Project
   id: project13
+  category: 
+    - data
+    - ml
   time: October - December 2022
   description:
     - Predicted countries' summer Olympics medal counts based on different fields of data
@@ -33,6 +67,8 @@
     Yinsh Game AI Agent
   nature: Group Project
   id: project13
+  category: 
+    - algo
   time: April - May 2022
   description:
     - Implemented an autonomous agent that can play and compete in a tournament for the game Yinsh
@@ -51,6 +87,8 @@
     "Oh! Heaven" Game
   nature: Group Project
   id: project12
+  category: 
+    - software
   time: May 2022
   description:
     - Applied software engineering knowledge, design patterns and principles (e.g., Strategy Factory, Singleton, Information Expert, Polymorphism, and Observer) to refactor and extend the system of the game to support new behaviours
@@ -69,6 +107,8 @@
     Twitter Sentiment Prediction
   nature: Group Project
   id: project11
+  category: 
+    - ml
   time: April - May 2022
   description:
     - Developed a Twitter sentiment classifier based on the given dataset
@@ -87,6 +127,8 @@
     "Snakes and Ladders on a Plane" Game
   nature: Group Project
   id: project10
+  category: 
+    - software
   time: April 2022
   description:
     - Applied software engineering knowledge, design patterns and principles to refactor and extend the system of the game to support new behaviours
@@ -105,6 +147,8 @@
     Diabetes-Home: A Diabetes Management Web Application
   nature: Group Project
   id: project9
+  category: 
+    - web
   time: March - May 2022
   description:
     - Participated in building a web application that allows diabetes patients to record health data, contact clinicians, and enable clinicians to monitor patients' data and take notes (https://diabetehome-team-nicola.herokuapp.com/)
@@ -118,12 +162,16 @@
     - HTML/CSS
     - JavaScript
     - HandleBars
+    - Node.js
+    - Express.js
     - MongoDB
     - Heroku
 
 - name: MLFQ Scheduler
   nature: Individual Project
   id: project8
+  category: 
+    - algo
   time: December 2021
   description:
     - Implemented a Multilevel Feedback Queue (MLFQ) scheduler in C according to the given scheduling rules, 
@@ -140,6 +188,8 @@
 - name: Research on Daily Activities and Sleep Quality
   nature: Group Project
   id: project7
+  category: 
+    - data
   time: April 2021
   description:
     - Proposed the idea and methodologies for investigating the relationships between college students’ daily activities and sleep quality.
@@ -158,6 +208,8 @@
     A Smart Walking Stick: “Eye-Cane”
   nature: Group Project, Group Leader
   id: project6
+  category: 
+    - inno
   time: April 2021
   description:
     - >
@@ -174,6 +226,8 @@
 - name: Surveillance vs. Privacy
   nature: Group Project
   id: project5
+  category: 
+    - others
   time: March 2021
   description:
     - Studied on the digital privacy and the role of surveillance.
@@ -188,6 +242,8 @@
 - name: Reversi Game
   nature: Individual Project
   id: project4
+  category: 
+    - software
   time: December 2020
   description:
     - Built a board game Reversi using Java based on the GUI and basic frame, implemented functions to judge valid moves and the end of the game.
@@ -201,6 +257,8 @@
 - name: Data Analysis and Fraudulent Detection via Benford's Law
   nature: Group Project
   id: project3
+  category: 
+    - data
   time: December 2020
   description:
     - collected and analyzed a variety of data in different fields from professional statistical websites, classify the data types into types that may or may not obey Benford's law, and summary the possible conditions of Benford's law.
@@ -217,6 +275,8 @@
 - name: Conway's Game of Life and Turing-completeness
   nature: Group Project
   id: project2
+  category: 
+    - others
   time: April 2020
   description:
     - Implemented Conway's Game of Life in Python.
@@ -234,6 +294,8 @@
 - name: Checkers AI Player Program
   nature: Individual Project
   id: project1
+  category: 
+    - algo
   time: November 2019
   description:
     - Developed a checkers program in C language that supports both human-human players mode and human-AI players mode
