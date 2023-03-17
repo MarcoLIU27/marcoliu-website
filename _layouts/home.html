@@ -24,12 +24,22 @@ layout: default
 <!-- ABOUT ME SECTION -->
 <div class="card mx-auto border-0" style="position:relative;background-color:{{theme.home-background-color}};">
   <div class="row">
-    <div class="col-md-4">
-      {% if site.animate %}
-        <img src="{{ site.profile_image }}" class="img-thumbnail float-left animate__animated animate__fadeInLeft shadow bg-white rounded" alt="...">
-      {% else %}
-        <img src="{{ site.profile_image }}" class="img-thumbnail float-left" alt="...">
-      {% endif %}
+    <div class="col-md-4" style="display: block">
+      <div style="display: flex;">
+        {% if site.animate %}
+          <img src="{{ site.profile_image }}" class="img-thumbnail float-left animate__animated animate__fadeInLeft shadow bg-white rounded" alt="...">
+        {% else %}
+          <img src="{{ site.profile_image }}" class="img-thumbnail float-left" alt="...">
+        {% endif %}
+      </div>
+      <div class="portrait-title animate__animated animate__fadeInLeft" style="margin-top: 2em">
+        <h2>Marco Haoyu LIU</h2>
+        <h3>Final-year Computer Science Student</h3>
+        <ul class="network-icon">
+          {% include social.html %}
+        </ul>
+      </div>
+      
     </div>
     <!-- EDUCATION SECTION -->
     <div class="col-md-8">

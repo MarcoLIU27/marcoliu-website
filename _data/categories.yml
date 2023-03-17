@@ -1,0 +1,29 @@
+- name: All
+  id: all
+
+- name: Algorithm
+  id: algo
+
+- name: Machine Learning
+  id: ml
+
+- name: Software
+  id: software
+
+- name: Data Analysis
+  id: data
+
+- name: Web Application
+  id: web
+
+- name: Innovation
+  id: inno
+
+- name: Computer Graphics
+  id: cg
+
+- name: Others
+  id: others
+
+
+

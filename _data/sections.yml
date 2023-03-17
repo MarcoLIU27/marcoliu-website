@@ -4,17 +4,17 @@
   url: research.html
   first: true
 
-- name: Publications
-  id: publications
-  description: My publications
-  url: publications.html
-  first: false
-
 - name: Projects
   id: projects
   description: My Course Projects
   content: 
   url: projects.html
+  first: false
+
+- name: Publications
+  id: publications
+  description: My Publications
+  url: publications.html
   first: false
   
 - name: Coursework
