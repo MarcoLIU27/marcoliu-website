@@ -1667,15 +1667,175 @@ button i{
   }
 }
 
-.row{
-  margin-bottom:2rem;
+.blog-nav{
+  font-family:-apple-system, BlinkMacSystemFont, sans-serif; 
+  color:#ffffff;
+  font-weight:200;
+  padding:0!important;
+  position: relative;
 }
-.posts-text{
-  font-family: "Playfair Display",serif;
-  line-height: 2;
-  font-size: 2rem;
+.nav-item-blog{
+  margin: 0.5rem 0.5rem 0 0.5rem;
+}
+.blog-nav-ul{
+  position: absolute; 
+  top: 10px; 
+  right: 5px;
+}
+.blog-nav-ul .nav-item-blog.nav-item-blog-current a {
+  color: #fda403;
+}
+.blog-nav-ul .nav-item-blog {
+  position: relative;
+}
+.blog-nav-ul .nav-item-blog.nav-item-blog-current a::before {
+  width: 100%;
+  visibility: visible;
+  transform: scaleX(1);
 }
 
+.blog-nav-ul .nav-item-blog a::before {
+  content: "";
+  width: 0;
+  height: 0.5px;
+  background: #fda403;
+  position: absolute;
+  bottom: -1px;
+  visibility: hidden;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.blog-nav-ul .nav-item-blog a:hover::before {
+  width: 100%;
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.head-text{
+  color:white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 1.5rem;
+  letter-spacing: 10px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.subtitle-text{
+  color:white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.head-image-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 45%; /*保持宽高比例*/
+  background-image: linear-gradient(to bottom, rgba(37, 39, 51, 0), rgba(37, 39, 51, 1)), url(/assets/img/posts/cu-blossoming.jpg);
+  background-size: cover; /*自适应父级容器的大小*/
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.head-image-container-design{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 40%; /*保持宽高比例*/
+  background-image: linear-gradient(to bottom, rgba(37, 39, 51, 0), rgba(37, 39, 51, 1)), url(/assets/img/designs/admission/map.jpg);
+  background-size: cover; /*自适应父级容器的大小*/
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.flow {
+  background:linear-gradient(to right, #fff, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: hue 3s linear infinite;
+}
+@keyframes hue {
+  0% {
+      filter: hue-rotate(0deg);
+  }
+  100% {
+      filter: hue-rotate(360deg);
+  }
+}
+
+.post-list{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row{
+  margin-bottom:2rem;
+  width:95%;
+  background-color:transparent;
+  backdrop-filter: blur(150px);
+  padding: 14px 36px 18px 36px;
+  border-style: groove;
+  border-width: 0.1px;
+  border-bottom: outset;
+}
+.posts-title{
+  font-family:"Playfair Display", serif;
+  line-height: 1.3;
+  font-size: 2.5rem;
+  color:white;
+}
+.posts-subtitle{
+  font-family:"Playfair Display", serif;
+  line-height: 1.3;
+  font-size: 1.5rem;
+  color:white;
+}
+.posts-discription{
+  font-family:"Playfair Display", serif;
+  line-height: 2;
+  font-size: 1.5rem;
+  color:white;
+}
+.posts-title-link{
+  font-family:"Playfair Display", serif;
+  line-height: 1.3;
+  font-size: 1.5rem;
+  color:white!important;
+  background-image: linear-gradient( transparent 50%, rgb(225, 102, 61) 50%)!important;
+}
+
+.footer-link a{
+  color: white!important;
+}
+.footer-link a:hover{
+  color: #fda403!important;
+  text-decoration: none;
+}
+@media(max-width:991px){
+  .blog-nav-ul{
+    padding-left: 0;
+    position: initial;
+  }
+  .blog-nav-ul .nav-item-blog.nav-item-blog-current a::before {
+    visibility: hidden;
+  }
+  .head-text{
+    font-size: 30px;
+  }
+  .posts-title{
+    font-size: 32px;
+  }
+  .posts-subtitle{
+    font-size: 16px;
+  }
+  .row{
+    padding: 14px!important;
+  }
+}
 @media (max-width:500px){
   .page-title{
     font-size: 32px;
@@ -1712,4 +1872,26 @@ button i{
   .image-container img{
     max-width: 100%;
   }
+  .blog-logo{
+    font-size: 20px;
+  }
+  .head-text{
+    font-size: 20px;
+    letter-spacing: 6px;
+  }
+  .posts-title{
+    font-size: 32px;
+  }
+  .posts-subtitle{
+    font-size: 16px;
+  }
+  .posts-discription{
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  .posts-title-link{
+    font-size: 16px;
+  }
+  
 }
+

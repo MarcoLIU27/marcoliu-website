@@ -1,0 +1,46 @@
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Flappy Text</title>
+    <style>
+        html, body{
+            margin : 0px;
+            width : 100%;
+            height : 100%;
+            overflow: hidden;
+            background-color: #FFFFFF;
+        }
+
+        #canvasContainer{
+            margin : 0px;
+            width : 100%;
+            height : 100%;
+        }
+
+        #textInputSpan{
+            position: absolute;
+            color: #000000;
+            font-family: sans-serif;
+        } 
+    </style>
+
+</head>
+
+<body>
+
+  <div id="canvasContainer"></div>
+<span id="textInputSpan">
+  Your name (max 8 chars) :
+  <input id="textInput" maxlength="10" type="text" width="150" />
+  <button onclick="changeText()">GO!</button>
+</span>
+
+  <script src="/js/flappy-bird/index.js"></script>
+
+</body>
+
+</html>
