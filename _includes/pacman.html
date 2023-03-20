@@ -1,0 +1,41 @@
+<html>
+<head>
+	<meta charset="utf8">
+	<title>Pac-Man</title>
+	<link rel="shortcut icon" href="/assets/img/icons/favicon.png">
+	<style>
+		#pacman{background-color: #292929}
+		*{padding:0;margin:0;}
+		.wrapper{
+			width: 960px;
+			margin:0 auto;
+			line-height:36px;
+			text-align:center;
+			color:#fff;
+		}
+		canvas{display:block;background: #000;}
+		.mod-botton{
+			height: 32px;
+			padding: 15px 0;
+			text-align: center;
+		}
+		@media (max-width: 1200px){
+			#pacman{display: none;}
+		}
+	</style>
+</head>
+<body>
+	<div id="pacman">
+	<div class="wrapper" style="max-width: 100%;">
+		<canvas id="canvas" width="960" height="640">不支持画布</canvas>
+		<h5>按［空格］开始、暂停或继续游戏</h5>	
+		<h5>Press［Space］to start, pause and continue the game.</h5>	
+	</div>
+	<script src="/js/pacman/game.js"></script>
+	<script src="/js/pacman/index.js"></script>
+	<div style="text-align:center;color:#fff">
+		<h5>Credit to <a style="color:#fff" href="http://www.mycodes.net/" target="_blank">mycodes.net</a></h5>
+	</div>
+	</div>
+</body>
+</html>
