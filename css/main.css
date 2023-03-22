@@ -1772,12 +1772,13 @@ button i{
   flex-direction: column;
   align-items: center;
 }
-.row{
+.post-list .row{
   margin-bottom:2rem;
   width:95%;
   background-color:transparent;
   backdrop-filter: blur(150px);
-  padding: 14px 36px 18px 36px;
+  /* padding: 14px 36px 18px 36px; */
+  padding: 4px;
   border-style: groove;
   border-width: 0.1px;
   border-bottom: outset;
