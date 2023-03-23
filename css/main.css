@@ -1751,6 +1751,17 @@ button i{
   background-position: center;
 }
 
+.head-image-container-video{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 20%; /*保持宽高比例*/
+  background-image: linear-gradient(to bottom, rgba(37, 39, 51, 0), rgba(37, 39, 51, 1)), url(/assets/img/posts/bili.png);
+  background-size: cover; /*自适应父级容器的大小*/
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 .flow {
   background:linear-gradient(to right, #fff, #fff);

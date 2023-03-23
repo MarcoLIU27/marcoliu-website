@@ -19,25 +19,25 @@ last-updated: 2020-10-30 5:55 PM
                 <a href="/playground/blog.html" class="nav-link blog-nav">Home</a>
             </li>
             <li class="nav-item nav-item-blog">
-                <a href="/playground/blog/404.html" class="nav-link blog-nav">Videos</a>
+                <a href="/playground/blog/videos.html" class="nav-link blog-nav">Videos</a>
             </li>
             <li class="nav-item nav-item-blog">
-                <a href="/playground/blog/404.html" class="nav-link blog-nav">Articles</a>
+                <a href="/playground/blog/articles.html" class="nav-link blog-nav">Articles</a>
             </li>
             <li class="nav-item nav-item-blog">
-                <a href="/playground/blog/404.html" class="nav-link blog-nav">Photos</a>
+                <a href="/playground/blog/photos.html" class="nav-link blog-nav">Photos</a>
             </li>
             <li class="nav-item nav-item-blog">
                 <a href="/playground/blog/designs.html" class="nav-link blog-nav">Designs</a>
             </li>
             <li class="nav-item nav-item-blog">
-                <a href="/playground/blog/404.html" class="nav-link blog-nav">Music</a>
+                <a href="/playground/blog/music.html" class="nav-link blog-nav">Music</a>
             </li>
             <li class="nav-item nav-item-blog">
-                <a href="/playground/blog/404.html" class="nav-link blog-nav">About</a>
+                <a href="/playground/blog/about.html" class="nav-link blog-nav">About</a>
             </li>
             <li class="nav-item nav-item-blog">
-                <a href="/playground/blog/404.html" class="nav-link blog-nav">Contact</a>
+                <a href="/playground/blog/contact.html" class="nav-link blog-nav">Contact</a>
             </li>
           </ul>
         </div>
@@ -112,7 +112,33 @@ last-updated: 2020-10-30 5:55 PM
                 </div>
             </div>
         </div>
-        
+
+        <div class="blogcard row" style="min-height:380px">
+            <div class="col-md-8" style="display: flex; align-items: center;">
+                <p class="posts-discription">
+                    本校所有动物均不会说话。不要相信任何和您搭讪的动物。<br>
+                </p>
+            </div>
+            <div class="col-md-4" style="display: grid; align-content: center;justify-items: start;">
+                <h1 class="posts-title">【规则类怪谈】欢迎来到中文大学</h1>
+                <a class="posts-title-link highlighted" style="float:right;" href="https://mp.weixin.qq.com/s?__biz=Mzg5ODQxOTk2NQ==&mid=2247483702&idx=1&sn=aa093e1a26e86c7d574d4ddaab04519c&chksm=c0639ca4f71415b28f738349da36110c35073aefd27aedcfee2297ceb4b719ac8e35424d6c85#rd" target="_blank">阅读全文 >></a>
+            </div>
+        </div>
+
+        <div class="blogcard row">
+            <div class="col-md-4" style="display: grid; align-content: center;">
+                <h1 class="posts-title">魔发奇缘混剪<br>乐佩&尤金<br>Love Story </h1><br>
+                <h5 class="posts-subtitle">这绝对是全迪士尼最甜的一对！</h5>
+            </div>
+            <div class="col-md-8">
+                <div style="padding: 0.5rem 0 0.5rem 0;">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://player.bilibili.com/player.html?aid=87096853&bvid=BV1L7411h745&cid=148829378&page=1&as_wide=1&high_quality=1&autoplay=no" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="blogcard row">
             <div class="col-md-8">
                 <div style="padding: 0.5rem 0 0.5rem 0;">
@@ -123,7 +149,7 @@ last-updated: 2020-10-30 5:55 PM
             </div>
             <div class="col-md-4" style="display: grid; align-content: center;">
                 <h1 class="posts-title">IVE&Cardi B 联名复仇新曲「After WAP」</h1><br>
-                <h5 class="posts-subtitle">「这一次，我要夺回属于我的芙西。」</h5>
+                <h5 class="posts-subtitle">「这一次，我要夺回属于我的一位。」</h5>
             </div>
         </div>
         
@@ -134,47 +160,48 @@ last-updated: 2020-10-30 5:55 PM
 
     <div>
         <h5 class="subtitle-text"> Choose a game to play!</h5>
-        <p class="subtitle-text"> PS: You need to have a screen wider than 1200px (a computer) to play Pac Man!</p>
+        <!-- <p class="subtitle-text"> PS: You need to have a screen wider than 1200px (a computer) to play Pac Man!</p> -->
         <div class="project-toolbar">
             <div class="multi-button">
-              <button href="javascript:;" class="category-btn" style="margin: 0.5em;" data-category="game-pacman"><i class="fa fa-lightbulb-o"></i> Pac Man</button>
+              <button href="javascript:;" class="category-btn" style="margin: 0.5em;" data-category="game-ami"><i class="fa fa-lightbulb-o"></i>赛博木鱼</button>
               <button href="javascript:;" class="category-btn active" style="margin: 0.5em;" data-category="game-2048"><i class="fa fa-pencil"></i> 2048</button>
             </div>
         </div>
     </div>
-    <div id="game-pacman" style="display:none;">{% include pacman.html %}</div>
+    <!-- <div id="game-pacman" style="display:none;">{% include pacman.html %}</div> -->
     <div id="game-2048" style="display:block;">{% include 2048-master/index.html %}</div>
+    <div id="game-ami" style="display:block;display:none;">{% include amitabha.html %}</div>
 
     <div class="post-list" style="margin-top:3rem; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
     <div class="blogcard row" style="color:white; border-style:none; border-bottom: none;">
         <div class="col-md-4" style="text-align:center">
             <h3>About</h3>
-                <p style="font-size:1.2rem; line-height:2;" >
-                    About Me<br>
-                    About this website<br>
-                    Contact<br>
-                    Website Log<br>
+                <p class="footer-link"  style="font-size:1.2rem; line-height:2;" >
+                    <a href="https://www.marcoliu.com" target="_blank">About Me</a><br>
+                    <a href="https://www.marcoliu.com/playground/blog/404.html" target="_blank">About this website</a><br>
+                    <a href="https://www.marcoliu.com/contact" target="_blank">Contact</a><br>
+                    <a href="https://www.marcoliu.com/playground/blog/404.html" target="_blank">Website Log</a><br>
                 </p>
         </div>
         <div class="col-md-4" style="text-align:center">
             <h3>Links</h3>
             <p class="footer-link" style="font-size:1.2rem; line-height:2;">
-                <a href="https://www.marcoliu.com" target="_blank">Marco Liu's Website(主站)</a><br>
+                <a href="https://www.marcoliu.com" target="_blank">主站</a><br>
                 <a href="https://www.marcoliu.com/playground/home.html" target="_blank">Playground 入口</a><br>
                 <a href="https://github.com/gabrielecirulli/2048" target="_blank">2048 Game</a>
             </p>
         </div>
-        <div class="col-md-4" style="text-align:center">
+        <div class="col-md-4" style="text-align:center;">
             <h3>Platforms</h3>
-            <p style="font-size:1.2rem; line-height:2;">
-                LinkedIn<br>
-                GitHub<br>
-                Bilibili<br>
-                微信公众号<br>
-                小红书<br>
-                Instagram<br>
-                Facebook<br>
-            </p>
+            <div class="footer-link"  style="font-size:1.2rem; line-height:2;">
+                <a href="https://www.linkedin.com/in/haoyu-marco-liu" target="_blank">LinkedIn</a><br>
+                <a href="https://github.com/MarcoLIU27" target="_blank">GitHub</a><br>
+                <a href="https://space.bilibili.com/7189540/" target="_blank">Bilibili</a><br>
+                <a href="/assets/img/posts/wechat-qrcode.png" target="_blank">微信公众号</a><br>
+                <a href="https://www.marcoliu.com" target="_blank">小红书</a><br>
+                <a href="https://instagram.com/{{ site.instagram }}" target="_blank">Instagram</a><br>
+                <a href="https://www.facebook.com/marcoliu27" target="_blank">Facebook</a><br>
+            </div>
         </div>
     </div>
 </div>
@@ -204,12 +231,12 @@ last-updated: 2020-10-30 5:55 PM
                 $(".category-btn").removeClass("active");
                 $this.addClass("active");
                 var $filter = $this.data("category"); 
-                if ($filter === 'game-pacman') {
-                    $('#game-pacman').css('display', 'block');
+                if ($filter === 'game-ami') {
+                    $('#game-ami').css('display', 'block');
                     $('#game-2048').css('display', 'none');
                 } else if ($filter === 'game-2048') {
                     $('#game-2048').css('display', 'block');
-                    $('#game-pacman').css('display', 'none');
+                    $('#game-ami').css('display', 'none');
                 }
             }
         });
