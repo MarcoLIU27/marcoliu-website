@@ -1,0 +1,173 @@
+- Version: 1.7.1
+  Date: 2023-04-05 (UTC+8)
+  Added:
+    - Add 'Website Log' page
+  Fixed:
+  Changed:
+    - Change email presentation on contact page for better security
+  Removed:
+
+- Version: 1.7.0
+  Date: 2023-03-23 (UTC+8)
+  Added:
+    - Add "赛博木鱼" (from playground-intro page) game to the playground game corner
+    - Add playground 'Video' page and the head picture
+    - Add playground 'About' page and contents
+    - Add playground 'Article' page and posts
+    - Add playground 'Music' page and posts
+    - Add playground 'Photos' page
+    - Add "Watch at Bilibili" links for playground Bilibli video posts
+  Fixed:
+    - Fix some styles and bugs
+    - Fix styles and layouts of playground posts, including responsive designs
+    - Fix styles of Bilibili video containers for playground
+  Changed:
+    - Add new posts to playground-home page
+    - Update footer section of playground-home page
+    - Update introduction (home page)
+  Removed:
+    - Remove Pacman game from the playground game corner
+  
+- Version: 1.6.1
+  Date: 2023-03-22 (UTC+8)
+  Added:
+    - Add 'Playground' entry to the main website navigation bar
+    - Add 'Playground' 404 page
+  Fixed:
+    - Fix some styles and bugs
+    - Fix styles of playground posts for better view on mobile phones
+  Changed:
+  Removed:
+    - Remove playground intro page, visitors will directly enter the playground blog page (instead of the intro page) from the playground home page
+
+- Version: 1.6.0
+  Date: 2023-03-19 (UTC+8)
+  Added:
+    - New layout and themes for 'Playground' pages
+    - Add a head picture to the playground blog home page
+    - Add "Game Corner" to the playground blog home page, including two small games (Pacman & 2048) and a filter
+    - Add navigation bar with new styles to the playground pages
+    - Add new contents to the playground blog home page
+    - Add new footer section to the playground blog home page
+    - Add playground blog 'Design' page
+  Fixed:
+  Changed:
+    - Change titles for 'Playground' pages (1) start -> home, (2) home -> intro, (3) display -> blog
+  Removed:
+
+
+- Version: 1.5.0
+  Date: 2023-03-17 (UTC+8)
+  Added:
+    - Add project filter for project page
+    - Add 'Playground' pages - (1) start - a welcome page with animation, (2) home - an small interactive game "赛博木鱼", (3) display - a personal blog page
+    - New layout for home page
+    - Add social website section for home page, add new Instagram and Wechat icons/links
+  Fixed:
+    - Fix some styles and layouts
+  Changed:
+    - Update new contents and project categories for project page
+    - Change avatar size
+    - Update introduction section of home page
+  Removed:
+    - Remove social website icons/links from navigation bar
+
+- Version: 1.4.0
+  Date: 2023-03-16 (UTC+8)
+  Added:
+    - Add 'Music' page and new category 'music' for posts, move music posts to new music page
+  Fixed:
+  Changed:
+    - Update or add new contents for home/about/publication/activities/awards/courses/education/projects/research/design pages
+    - Update new avatar
+    - Update layout and styles for home page (including education section) and publication page
+    - Add Peking University Summer School to education section
+    - Upload current CV for downloading
+    - Change the display order of desgin gallery works to reverse chronological order
+    - Change title for research page
+  Removed:
+    - Modify email address presentation on contact page & remove direct jump to sending email for better security and prevent email scam
+  
+- Version: 1.3.0
+  Date: 2022-06-03 (UTC+8)
+  Added:
+    - Add Gitalk for blog pages to support comments and responses for posts
+    - Add 'Music' posts
+  Fixed:
+  Changed:
+    - Update contents for project page
+  Removed: 
+
+- Version: 1.2.1
+  Date: 2022-05-16 (UTC+8)
+  Added:
+    - Add ClustrMaps on 'Contact' page to show off the visitors of the website
+  Fixed:
+    - Fix some styles
+  Changed: 
+  Removed: 
+
+- Version: 1.2.0
+  Date: 2022-05-07 (UTC+8)
+  Added:
+    - Deploy the website to customized domain (www.marcoliu.com)
+  Fixed: 
+  Changed: 
+    - Significantly reduced image size for design page and shortened image loading time
+  Removed: 
+
+- Version: 1.1.1
+  Date: 2022-05-06 (UTC+8)
+  Added:
+  Fixed: 
+    - Fix some styles and layouts
+  Changed: 
+    - Add contents for activity page
+    - Add contents for courses page
+  Removed: 
+
+- Version: 1.1.0
+  Date: 2022-05-04 (UTC+8)
+  Added:
+    - Add 'Designs' page & gallery feature
+    - Add 'Blog' page and posts
+    - Add CV download button on home page
+  Fixed: 
+  Changed: 
+    - Add contents for project page
+  Removed: 
+
+- Version: 1.0.1
+  Date: 2022-05-03 (UTC+8)
+  Added: 
+  Fixed: 
+    - Fix some styles and layouts
+  Changed: 
+  Removed: 
+
+- Version: 1.0.0
+  Date: 2022-05-02 (UTC+8)
+  Added: 
+    - Deploy the website to Netlify
+  Fixed: 
+  Changed:
+  Removed: 
+
+- Version: 0.1.0
+  Date: 2022-05-02 (UTC+8)
+  Added: 
+    - Initial development release
+    - Add Home page (education, avatar)
+    - Add 'About Me' page
+    - Add 'Research' page
+    - Add 'Publication' page
+    - Add 'Projects' page
+    - Add 'Honors and Awards' page
+    - Add 'Activities' page
+    - Add 'Contact' page
+    - Add timeline feature
+    - Add feedback feature for contact page
+  Fixed: 
+  Changed:
+    - Update website theme and layouts
+  Removed: 
