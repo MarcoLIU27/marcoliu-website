@@ -1,9 +1,9 @@
-- School: University of California San Diego
+- School: University of California, San Diego
   Degree: Master of Science
   Program: Computer Science and Engineering
   StartDate:  (Expected) Sep. 2023
   EndDate: Dec. 2024
-  Icon: /assets/img/icons/UCSD-logo.png      # Make this icon small, think 30px/30px
+  Icon: /assets/img/icons/UCSD_Seal.png      
   Link: https://ucsd.edu/
 
 - School: The Chinese University of Hong Kong
@@ -11,7 +11,7 @@
   Program: Computer Science
   StartDate: Sep. 2019
   EndDate: May 2023
-  Icon: /assets/img/icons/cuhk-logo.png      # Make this icon small, think 30px/30px
+  Icon: /assets/img/icons/cuhk-logo.png     
   Link: https://www.cuhk.edu.hk/english/index.html
 
 - School: University of Melbourne
