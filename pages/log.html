@@ -18,7 +18,7 @@ last-updated: 2020-10-30 5:55 PM
     {% for logItem in site.data.logs %}
     <li class="timeline-container-ul-li">
       <span>v {{ logItem.Version }} </span>
-      <span> {{ logItem.Date }}</span>
+      <p><b>{{ logItem.Date }}</b></p>
       <div class="content">
         {% if logItem.Added %}
           <h3>Added:</h3>

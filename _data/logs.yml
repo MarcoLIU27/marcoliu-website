@@ -1,3 +1,14 @@
+- Version: 1.7.2
+  Date: 2023-04-10 (UTC+8)
+  Added:
+    - Add 'Website Logs' link to the 'Contact' page
+    - Update 'Education' page, add 'UCSD'
+  Fixed:
+  Changed:
+    - Optimize site directory structure
+    - Change display of dates on log page
+  Removed:
+
 - Version: 1.7.1
   Date: 2023-04-05 (UTC+8)
   Added:
