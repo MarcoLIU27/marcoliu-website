@@ -1,23 +1,21 @@
 {
-  "name": "dumbarton",
-  "version": "1.0.0",
-  "description": "A Jekyll theme for academics",
+  "name": "marco-liu-website",
+  "version": "1.7.1",
+  "description": "Marco Liu's Personal Website",
   "scripts": {
+    "start": "bundle exec jekyll serve",
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tcbutler320/Dumbarton.git"
+    "url": "git+https://github.com/MarcoLIU27/marcoliu-website.git"
   },
-  "keywords": [
-    "jekyll"
-  ],
-  "author": "Tyler Butler",
+  "author": "Marco Liu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tcbutler320/Dumbarton/issues"
+    "url": "https://github.com/MarcoLIU27/marcoliu-website/issues"
   },
-  "homepage": "https://github.com/tcbutler320/Dumbarton#readme",
+  "homepage": "https://github.com/MarcoLIU27/marcoliu-website#readme",
   "dependencies": {
     "@fancyapps/ui": "^4.0.26",
     "express-flash": "^0.0.2"

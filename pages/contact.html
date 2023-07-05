@@ -1,24 +1,16 @@
 ---
 layout: page
-permalink: contact.html
+permalink: /contact.html
 title: Contact Me
 header-img:  
 last-updated: 2020-10-30 5:55 PM
 ---
-{% assign theme = site.data.themes[site.ui_theme] %}
+
 <div class="blogcard card-2 mb-4 mt-4" style="width: 100%;">
   <div class="card-body">
-    <h1 class="card-title text-center" style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};">{{ page.title }}</h1>
-    <p>{{ content | markdownify }} </p>
-    <!-- Target -->
-    {% if page.pgp %}
-    <input id="foo" style="width:50%;" class="text-muted" value="{{ site.pgp-key }}">
-    <!-- Trigger -->
-    <button class="btn" data-clipboard-target="#foo">
-        <i class="far fa-copy" alt="Copy PGP clipboard"></i>
-        <span style="font-size:14px;">Copy</span>
-    </button>
-    {% endif %}
+    <h3>{{ page.title }}</h3>
+    <p>Feel free to reach out to me by Email: <b>lhy1421381989(at)gmail(dot)com</b>, or on <a href="https://www.linkedin.com/in/haoyu-marco-liu" target="_blank" class="highlighted">Linkedin</a>. Welcome to visit my <a href="https://github.com/MarcoLIU27" target="_blank" class="highlighted">GitHub</a> Homepage.
+      You can also send me a message through the netlify form api below. </p>
   </div>
 </div>
              
@@ -38,6 +30,13 @@ last-updated: 2020-10-30 5:55 PM
         <button type="submit" class="btn-hover color-1 mb-4">Submit</button>
       </div>
     </form>
+  </div>
+</div>
+
+<div class="blogcard card-1 mb-4 mt-4" style="width: 100%;">
+  <div class="card-body">
+    <h3>Website Update Logs</h3>
+    <p>Find the history logs of this site on <a href="./log.html" target="_blank" class="highlighted"> Website Log </a> . </p>
   </div>
 </div>
 

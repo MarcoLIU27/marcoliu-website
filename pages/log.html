@@ -1,0 +1,62 @@
+---
+layout: page
+permalink: log.html
+title: Website Log
+description:
+header-img: 
+last-updated: 2020-10-30 5:55 PM
+---
+
+<div class="blogcard  card-2 mb-4" style="width: 100%;">
+  <div class="card-body">
+    <div class="card-title text-center page-title">{{ page.title }}</div>
+  </div>
+</div>
+
+<div class="timeline-container">
+  <ul class="timeline-container-ul">
+    {% for logItem in site.data.logs %}
+    <li class="timeline-container-ul-li">
+      <span>v {{ logItem.Version }} </span>
+      <p><b>{{ logItem.Date }}</b></p>
+      <div class="content">
+        {% if logItem.Added %}
+          <h3>Added:</h3>
+          <ul>
+            {% for added in logItem.Added %}
+            <li>{{ added }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if logItem.Fixed %}
+          <h3>Fixed:</h3>
+          <ul>
+            {% for fixed in logItem.Fixed %}
+            <li>{{ fixed }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        
+        {% if logItem.Changed %}
+          <h3>Changed:</h3>
+          <ul>
+            {% for changed in logItem.Changed %}
+            <li>{{ changed }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if logItem.Removed %}
+          <h3>Removed:</h3>
+          <ul>
+            {% for removed in logItem.Removed %}
+            <li>{{ removed }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

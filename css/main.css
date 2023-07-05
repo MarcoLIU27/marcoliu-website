@@ -1751,6 +1751,17 @@ button i{
   background-position: center;
 }
 
+.head-image-container-video{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 20%; /*保持宽高比例*/
+  background-image: linear-gradient(to bottom, rgba(37, 39, 51, 0), rgba(37, 39, 51, 1)), url(/assets/img/posts/bili.png);
+  background-size: cover; /*自适应父级容器的大小*/
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 .flow {
   background:linear-gradient(to right, #fff, #fff);
@@ -1772,7 +1783,7 @@ button i{
   flex-direction: column;
   align-items: center;
 }
-.row{
+.post-list .row{
   margin-bottom:2rem;
   width:95%;
   background-color:transparent;
@@ -1782,6 +1793,16 @@ button i{
   border-width: 0.1px;
   border-bottom: outset;
 }
+.post-list .row .col-md-8{
+  display: grid; 
+  align-content: center;
+}
+.post-list .row .col-md-4{
+  display: grid; 
+  align-content: center;
+  justify-items: start;
+}
+
 .posts-title{
   font-family:"Playfair Display", serif;
   line-height: 1.3;

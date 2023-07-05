@@ -1,0 +1,104 @@
+
+<div class="image-container">
+    <img id="amitabha" src="http://i2.hdslb.com/bfs/archive/ce935e4d8403cbc2709ce666f46db810e1bdaa8a.jpg" alt="">
+</div>
+
+<h4 id="hintText" style="text-align: center; margin-bottom:3rem; color:white">提示：点击按钮，开始赛博念经</h4>
+
+<div style="height: 100%; touch-action: manipulation;">
+<div class="mac-button-container">
+<button id="amitabha-button" class="mac-button">
+    <div class="button__content">
+      <div class="button__icon">
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           width="80px" height="80px" viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+        <g>
+          <path d="M64,48L64,48h-8V32h8c8.836,0,16-7.164,16-16S72.836,0,64,0c-8.837,0-16,7.164-16,16v8H32v-8c0-8.836-7.164-16-16-16
+            S0,7.164,0,16s7.164,16,16,16h8v16h-8l0,0l0,0C7.164,48,0,55.164,0,64s7.164,16,16,16c8.837,0,16-7.164,16-16l0,0v-8h16v7.98
+            c0,0.008-0.001,0.014-0.001,0.02c0,8.836,7.164,16,16,16s16-7.164,16-16S72.836,48.002,64,48z M64,8c4.418,0,8,3.582,8,8
+            s-3.582,8-8,8h-8v-8C56,11.582,59.582,8,64,8z M8,16c0-4.418,3.582-8,8-8s8,3.582,8,8v8h-8C11.582,24,8,20.417,8,16z M16,72
+            c-4.418,0-8-3.582-8-8s3.582-8,8-8l0,0h8v8C24,68.418,20.418,72,16,72z M32,48V32h16v16H32z M64,72c-4.418,0-8-3.582-8-8l0,0v-8
+            h7.999c4.418,0,8,3.582,8,8S68.418,72,64,72z"/>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        </svg>
+      </div>
+      <p class="button__text">Amitabha</p>
+    </div>
+  </button>
+</div>
+</div>
+<h4 id="clickCount" style="text-align: center; margin-top:3rem;color:white">当前功德：0</h4>
+
+
+
+
+<script>
+    // 获取按钮和计数器元素
+    const myButton = document.querySelector("#amitabha-button");
+    const clickCount = document.querySelector("#clickCount");
+    const myImage = document.querySelector("#amitabha");
+    const hintText = document.querySelector("#hintText");
+
+
+    // 设置一个计数器变量
+    let count = 0;
+    let opacity = 0;
+
+    // 为按钮添加点击事件监听器
+    myButton.addEventListener("click", function() {
+        // 每次点击时将计数器加1
+        count++;
+        // 更新计数器元素显示的文本内容
+        clickCount.textContent = "当前功德：" + count;
+        // 每次点击时将不透明度加 0.02，直到不透明度达到 1
+        if(opacity < 1){
+            opacity += 0.02;
+            myImage.style.opacity = opacity;
+        }
+        if (10 < count && count <= 20) {
+            hintText.textContent = "很好！看见赛博佛祖了吗？";
+        }
+        if (20 < count && count <= 30) {
+            hintText.textContent = "继续加油！赛博佛祖 is watching you!";
+        }
+        if (30 < count && count <= 40) {
+            hintText.textContent = "赛博功德正在增加！";
+        }
+        if (40 < count && count < 50) {
+            hintText.textContent = "再坚持一下！";
+        }
+        if (50 <= count) {
+            hintText.textContent = "恭喜！你已拥有足够功德！";
+        }
+    });
+</script>

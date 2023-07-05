@@ -9,8 +9,19 @@
       <div class="wave"></div>
    </div>
     <div class="container">
-      {% if page.header-img %}
-      <div class="card border-0" style="background-color: #252733; ">
+      {% if page.permalink == "/playground/home.html" %}
+      <div class="card border-0" style="backdrop-filter: blur(150px); margin: 1rem 0 1rem 0; border-radius: 1.5rem; ">
+          <div class="card-body">
+            <p class="card-text">
+                {{ content }}
+            </p>
+            {% if page.last-updated %}
+              <p class="card-text"><small class="text-muted">This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.</small></p>
+            {% endif %}
+          </div>
+      </div>
+      {% elsif page.permalink == "/playground/intro.html" %}
+      <div class="card border-0" style="backdrop-filter: blur(150px); margin: 1rem 0 1rem 0; border-radius: 1.5rem; ">
           <div class="card-body">
             <p class="card-text">
                 {{ content }}
