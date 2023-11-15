@@ -1836,6 +1836,11 @@ button i{
   color: #fda403!important;
   text-decoration: none;
 }
+
+.post-notes{
+  line-height: 2;
+}
+
 @media(max-width:991px){
   .blog-nav-ul{
     padding-left: 0;

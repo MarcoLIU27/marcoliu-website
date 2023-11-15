@@ -59,6 +59,14 @@ gitalk_owner: Marco Liu
 gitalk_admin: MarcoLIU27
 gitalk_distraction_mode: false
 
+# TOC Settings
+toc:
+ min_level: 1
+ max_level: 3
+ list_class: toc
+ list_class: toc__list
+ sublist_class: toc__sublist
+
 # =======================================#
 # -----------THEME SETTINGS--------------#
 #========================================#
@@ -94,6 +102,7 @@ plugins:
   - jekyll-feed
   - jekyll-scholar
   - jekyll-environment-variables
+  - jekyll-toc
 sass:
   sass_dir: _sass
   style: compressed
