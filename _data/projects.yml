@@ -4,14 +4,21 @@
   id: project16
   category: 
     - mobile
-  time: Febuary 2023 - Present
+  time: April - May 2023
   description:
-    - Ongoing
+    - Developed an Android mobile application for campus walking route recommendation and sport recording in Java, using Android Studio.
+    - Created user-friendly interfaces with fragment display, incorporating a panoramic map of CUHK campus using Google Map API and interactive map markers for route guidance.
+    - Developed route recommendation and navigation feature, allowing user to choose start and end points among frequently visited locations on campus
+    - Implemented Dijkstra algorithm to optimize route recommendations.
+    - Developed a walking recorder feature, utilizing GPS and background services to track users' sports activities, recording location, time, and distance traveled.
+    - Developed a walking history feature, enabling users to review and analyze past sports records, including detailed maps with start and end points.
   link: /projects.html
   image:  https://placehold.it/100x100
   tech:
     - Java
     - Android Studio
+    - Google Map API
+    - Mobile App Development
 
 - name: >
     Online Book Ordering System
@@ -19,14 +26,17 @@
   id: project15
   category: 
     - software
-  time: Febuary 2023 - Present
+  time: Febuary - April 2023
   description:
-    - Ongoing
+    - Built an online ordering system for books in Java, using JDBC with Oracle database.
+    - Designed and constructed E-R diagrams and relational schemas.
+    - Created SQL commands for book search, order placement, order updates, and order history queries.
   link: /projects.html
   image:  https://placehold.it/100x100
   tech:
     - Java
-    - MySQL
+    - SQL
+    - Oracle Database
 
 - name: >
     Space Travel Game
@@ -35,13 +45,14 @@
   category: cg
   time: November - December 2022
   description:
-    - Implemented a Space Travel Game based on OpenGL and C++ from scratch, including object rendering, transformation, lighting, texture mapping, skybox, shader, and interaction
+    - Implemented a Space Travel Game based on OpenGL and C++ from scratch, including object rendering, transformation, lighting, texture mapping, skybox, shader, and interaction.
   date: true
   link: /projects.html
   image:  https://placehold.it/100x100
   tech:
     - OpenGL
     - C++
+    - Computer Graphics
   
 - name: >
     The Prediction of Summer Olympics Medal Counts
@@ -151,21 +162,26 @@
     - web
   time: March - May 2022
   description:
-    - Participated in building a web application that allows diabetes patients to record health data, contact clinicians, and enable clinicians to monitor patients' data and take notes (https://diabetehome-team-nicola.herokuapp.com/)
-    - Worked on the front end, designed the UX/UI prototype of the web app, and made a clickable prototype using Adobe XD
-    - Built the back end of the website using Node.js, Express, Handlebars, JavaScript, and managed the data using MongoDB Atlas and Mongoose, and deployed the website on Heroku
+    - Developed a web application for patient-clinician data management and deployed the website on Heroku/Render. (https://diabetes-home.onrender.com/)
+    - Designed and implemented frontend UX/UI using Adobe XD, Handlebars, CSS, and JavaScript with responsive design.
+    - Implemented authentication and authorization using Passport.js and role-based redirection upon login.
+    - Developed the backend using Node.js and Express.js, and managed data with MongoDB.
+    - Implemented REST APIs for patients and health records management, including searching and filtering.
   date: true
-  link: /projects.html
+  link: https://diabetes-home.onrender.com/
   image:  https://placehold.it/100x100
   tech:
     - Adobe XD
+    - UX/UI
     - HTML/CSS
     - JavaScript
-    - HandleBars
+    - HandleBars.js
     - Node.js
     - Express.js
     - MongoDB
     - Heroku
+    - Passport.js
+    - REST API
 
 - name: MLFQ Scheduler
   nature: Individual Project
