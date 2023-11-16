@@ -1,0 +1,90 @@
+- name: Video Analysis Module for <i>Tellus</i> AI Assessment Platform
+  id: research1
+  position: Capstone Project
+  website: <a href="https://keep.edu.hk/products/#tellus" class="highlighted">Product Introduction</a>  |  <a href="https://tellus.keep.edu.hk/" class="highlighted">Website</a>
+  description:
+    - Designed and constructed E-R diagrams, UML class diagrams, and database schema based on use cases.
+    - Integrated Microsoft Azure AI Face Service and Python libraries/frameworks (e.g., OpenCV, MediaPipe, DeepFace) to facilitate facial, emotion, accessory, and body language analysis, boosting analysis accuracy by 30%.
+    - Utilized React, TypeScript, and Material UI to create real-time camera calibration feature and visualization dashboard.
+    - Developed algorithms using Python for interviewee presentation skills auto-evaluation and cheating detection.
+    - Designed scoring & commenting algorithms to achieve 93% analysis accuracy and 40% faster runtime.
+    - Designed 100+ unit and integration tests using Pytest for application testability and security, keeping 80% code coverage.
+    - Employed REST APIs for video management and implemented CURD operations on evaluation results using MySQL.
+
+  supervisor: Irwin King, Professor, CUHK
+  location: The Chinese University of Hong Kong, Hong Kong
+  date: true
+  link: https://keep.edu.hk/products/#tellus
+  image: 
+  StartDate: Sep. 2022
+  EndDate: April 2023
+  tech: 
+    - Python
+    - Microsoft Azure
+    - Machine Learning
+    - Computer Vision
+    - Video Analysis
+    - Software Engineering
+    - System Design
+    - React
+    - Material UI
+    - Node.js
+    - MySQL
+    - JavaScript/TypeScirpt
+    - Git
+    - REST API
+
+
+- name: Deep Learning-Based Time Series Analysis and Forecasting
+  id: research2
+  position: Summer Research Intern & Term-time Student Helper, CUHK Reliable Computing Lab
+  description:
+    - Built a large-scale repository for time-series analysis and forecasting on GitHub, including different state-of-the-art deep learning models
+    - Collaborated on creating a systematic pipeline to utilize and evaluate time series prediction models, implementing unified data preprocessing procedures, model instantiation interfaces, and standardized evaluation procedures
+    - Reproduced and implemented various spatio-temporal traffic prediction models and dataset loaders; modified the models to be compatible with repository interfaces, configurable, and adaptable to different datasets and tasks
+    - Implemented model evaluations and comparisons to ensure the characteristics and the original results of the models are well preserved
+  supervisor: Qiang Xu, Professor, CUHK
+  location: The Chinese University of Hong Kong, Hong Kong
+  date: true
+  link: /experience.html
+  image: 
+  StartDate: May 2022
+  EndDate: Oct. 2022
+  tech: 
+    - Python
+    - PyTorch
+    - Linux
+    - Machine Learning
+    - Deep Learning
+    - Time-series Forcasting
+    - Anaconda
+    - Git
+
+- name: Simultaneously Deblurring and Segmentation for Cataract Surgical Instruments
+  id: research1
+  position: Summer Research Intern, Surgical Robotics and Instrumentation Lab, CUHK
+  description:
+    - Worked on a spatio-temporal information-based network for cataract surgical instrument segmentation, consisting of a deblurring module and a subsequent segmentation module, with PyTorch and TensorFlow frameworks
+    - Improved the performance of the segmentation network by incorporating leading-edge deep learning modules
+    - Designed and conducted experiments on model evaluation and comparison, successfully proved the strength of the network under different special scenarios
+    - Designed and constructed a cataract surgical instrument dataset for integrating both deblurring and segmentation procedures to demonstrate the holistic novelty of the network
+    - Investigated the background and current state of research in the field of surgical skill assessment, proposed the motivation and the future research directions for the project
+  supervisor: Shing Shin Cheng, Assistant Professor, CUHK
+  location: Surgical Robotics & Devices Lab, The Chinese University of Hong Kong, Hong Kong
+  date: true
+  link: /experience.html
+  image: 
+  StartDate: June 2021
+  EndDate: Sept. 2021
+  tech: 
+    - Python
+    - TensorFlow
+    - PyTorch
+    - Docker
+    - Linux
+    - Anaconda
+    - LaTeX
+    - Machine Learning
+    - Deep Learning
+    - Computer Vision
+

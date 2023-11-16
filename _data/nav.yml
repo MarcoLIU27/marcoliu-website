@@ -4,11 +4,11 @@ links:
 - title: About Me
   url: about.html
 
-- title: Research
-  url: research.html
+- title: Experience
+  url: experience.html
 
-- title: Publications
-  url: publications.html
+#- title: Publications
+#  url: publications.html
 
 - title: Projects
   url: projects.html

@@ -34,7 +34,8 @@ layout: default
       </div>
       <div class="portrait-title animate__animated animate__fadeInLeft" style="margin-top: 2em">
         <h2>Marco Haoyu LIU</h2>
-        <h3>Final-year Computer Science Student</h3>
+        <h3>Computer Science Graduate Student @UCSD</h3>
+        <h3>BS. Computer Science @CUHK</h3>
         <ul class="network-icon">
           {% include social.html %}
         </ul>
@@ -83,23 +84,25 @@ layout: default
       <div class="tab-content mt-3">
         {% for section in site.data.sections %}
           {% if section.first %}
-            {% if section.name == "Research" %}
+            {% if section.name == "Experience" %}
               <div class="tab-pane active overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
                 <p><i>{{section.description}}</i></p>
-                  {% for research in site.data.research %}
+                  {% for experience in site.data.experience %}
                   <div class="media mt-2" style="margin-bottom: 2rem">
                     <!--<a href="{{ research.link }}"><img src="{{ research.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>-->
                     <div class="media-body">
-                      <h5 class="mt-0"><a href="{{ research.link }}" class="highlighted" style="line-height: 1.5">{{ research.name }}</a></h5>
-                      <h6 class="mt-0">{{ research.position }} | Supervisor: {{ research.supervisor }}</h6>
+                      <h5 class="mt-0"><a href="{{ experience.link }}" class="highlighted" style="line-height: 1.5">{{ experience.name }}</a></h5>
+                      <h6 class="mt-0">{{ experience.position }}</h6>
+                      <h6 class="mt-0">Supervisor: {{ experience.supervisor }} | {{ experience.StartDate }} - {{ experience.EndDate }}</h6>
+                      <h6 class="mt-0">{{ experience.website }}</h6>
                       <ul>
-                        {% for description in research.description %}
+                        {% for description in experience.description %}
                         <li>{{ description }}</li>
                         {% endfor %}
                       </ul>
-                      {% if research.tech %}
+                      {% if experience.tech %}
                         <h6>Technologies</h6>
-                          {% for tech in research.tech %}
+                          {% for tech in experience.tech %}
                           <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ tech }}</span>
                           {% endfor %}
                       {% endif %}

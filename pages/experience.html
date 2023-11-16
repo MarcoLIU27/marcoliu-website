@@ -1,0 +1,40 @@
+---
+layout: page
+permalink: /experience.html
+title: Work Experience, Research & Selected Project
+header-img: 
+last-updated: 2020-10-30 5:55 PM
+---
+{% assign theme = site.data.themes[site.ui_theme] %}
+<div class="blogcard card-2 mb-4" style="width: 100%;">
+  <div class="card-body">
+    <div class="card-title text-center page-title">{{ page.title }}</div>
+  </div>
+</div>
+{% for experience in site.data.experience %}
+<div class="blogcard mb-4 blogcard-small-screen" style="width: 100%;">
+  <div class="card-body">
+        <div class="media mt-2">
+          <!--<a href="{{ research.link }}"><img src="{{ research.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>-->
+          <div class="media-body">
+            <h5 class="mt-0"><span class="entry-title">{{ experience.name }}</h5>
+            <h6 class="mt-0">{{ experience.position }}</h6>
+            <h6 class="mt-0">Supervisor: {{ experience.supervisor }} | {{ experience.StartDate }} - {{ experience.EndDate }}</h6>
+            <h6 class="mt-0">{{ experience.website }}</h6>
+            <ul class="description-list">
+              {% for description in experience.description %}
+              <li>{{ description }}</li>
+              {% endfor %}
+            </ul>
+            {% if experience.tech %}
+              <h5>Technologies</h5>
+                {% for tech in experience.tech %}
+                <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ tech }}</span>
+                {% endfor %}
+            {% endif %}
+          </div>
+        </div>    
+  </div>
+</div>
+{% endfor %}  
+

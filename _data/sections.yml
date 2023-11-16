@@ -1,7 +1,7 @@
-- name: Research
-  id: research
-  description: My Research & Capstone Project
-  url: research.html
+- name: Experience
+  id: experience
+  description: Work Experience, Research & Selected Project
+  url: experience.html
   first: true
 
 - name: Projects
