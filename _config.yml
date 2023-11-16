@@ -10,7 +10,7 @@
 
 title: Marco LIU
 email: 
-description: a minimalistic jekyll theme for academics
+description: Marco Liu's personal website 
 baseurl:                                       # the subpath of your site, e.g. /blog
 url: "https://marcoliu.com/"          # the base hostname & protocol for your site, e.g. http://example.com
 image: /assets/img/dumbarton.png               # used to generate site link preview
@@ -20,7 +20,7 @@ image_alt:    # image description
 # -----------SITE SETTINGS---------------#
 #========================================#: 
 author: Marco Haoyu LIU
-profile_image: /assets/img/avatar/avatar-new.jpg  #/assets/img/avatar/avatar.jpeg 
+profile_image: /assets/img/avatar/avatar-1.jpg  #/assets/img/avatar/avatar.jpeg 
 occupation: 
 snippet:
 twitter: 
