@@ -1,6 +1,76 @@
-- name: Video Analysis Module for <i>Tellus</i> AI Assessment Platform
+- name: curaJOY
   id: research1
-  position: Capstone Project
+  position: Software Developer
+  website: <a href="https://my.curajoy.org/" class="highlighted">MyCuraJOY Website</a>
+  description:
+    - Developed an inclusive, gamified, and AI-assisted platform for enhancing family behavioral wellness, building 10+ reusable UI components with React, Next.js, TypeScript, and PrimeReact, while enhancing UI with Tailwind CSS.
+    - Enhanced user-interactive 3D avatars with Three.js, incorporating animations, advanced visuals, and seamless integration with a sophisticated behavior, mood, and body check-in system, boosting user satisfaction by 40%.
+    - Built and optimized reward and check-in systems with Redux modules, handling asynchronous data fetching, complex state updates, and user interaction logic, resulting in a 20% improvement in app performance and increased retention rates.
+    - Operated in an Agile(Scrum) environment using Jira to manage sprints, accelerating development cycles and delivering new features and releases more frequently through improved team coordination and project management.
+  location: San Diego, CA
+  supervisor: null
+  date: true
+  link: https://my.curajoy.org/
+  image: 
+  StartDate: May 2024
+  EndDate: Present
+  tech: 
+    - React
+    - Next.js
+    - TypeScript
+    - Three.js
+    - Redux
+    - Tailwind CSS
+    - PrimeReact
+    - Agile(Scrum)
+    - Jira
+    - Ready Player Me
+    - Jest
+    - Git
+
+- name: Orbiz.app
+  id: orbiz
+  position: Software Engineer Intern
+  website: <a href="https://go.orbiz.app/" class="highlighted">Orbiz.app Website</a>
+  description:
+    - Developed an LLM-powered, data-driven platform and a Chrome extension to streamline influencer outreach and campaign creation, reducing manual effort by 15 hours/week and improving marketing campaign efficiency.
+    - Designed and implemented scalable database schemas using PostgreSQL and TypeORM, leveraging hierarchical relationships and entity mappings to optimize complex workflows for campaign creation and influencer matching.
+    - Integrated APIs with Azure OpenAI to scrape websites, analyze products to generate campaign suggestions and relevant tags.
+    - Designed and deployed REST APIs with Node.js, Nest.js, Express and TypeScript, enabling efficient influencer querying, exporting, and tag-based matching across 3,000,000+ records in under 4 seconds using optimized SQL queries.
+    - Orchestrated dual AWS RDS connections with Docker containers, managed CI/CD pipelines via GitHub Actions and AWS CodePipeline on ECS, and configured IAM task roles with execution policies for secure and dynamic access to AWS resources.
+
+  location: San Diego, CA
+  supervisor: null
+  date: true
+  link: https://go.orbiz.app/
+  image: 
+  StartDate: April 2024
+  EndDate: Present
+  tech: 
+    - Node.js
+    - Nest.js
+    - Express
+    - TypeScript
+    - REST API
+    - PostgreSQL
+    - TypeORM
+    - Prisma
+    - Docker
+    - AWS
+    - Azure OpenAI
+    - GitHub Actions
+    - AWS ECS
+    - AWS CodePipeline
+    - AWS IAM
+    - AWS RDS
+    - CI/CD
+    - Git
+    - Chrome Extension
+
+
+- name: <i>Tellus</i> AI Assessment Platform
+  id: tellus
+  position: Software Developer, Capstone Project with CUHK KEEP Team
   website: <a href="https://keep.edu.hk/products/#tellus" class="highlighted">Product Introduction</a>  |  <a href="https://tellus.keep.edu.hk/" class="highlighted">Website</a>
   description:
     - Designed and constructed E-R diagrams, UML class diagrams, and database schema based on use cases.
@@ -36,7 +106,7 @@
 
 
 - name: Deep Learning-Based Time Series Analysis and Forecasting
-  id: research2
+  id: timeseries
   position: Summer Research Intern & Term-time Student Helper, CUHK Reliable Computing Lab
   description:
     - Built a large-scale repository for time-series analysis and forecasting on GitHub, including different state-of-the-art deep learning models
@@ -61,7 +131,7 @@
     - Git
 
 - name: Simultaneously Deblurring and Segmentation for Cataract Surgical Instruments
-  id: research1
+  id: cataract
   position: Summer Research Intern, Surgical Robotics and Instrumentation Lab, CUHK
   description:
     - Worked on a spatio-temporal information-based network for cataract surgical instrument segmentation, consisting of a deblurring module and a subsequent segmentation module, with PyTorch and TensorFlow frameworks

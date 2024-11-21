@@ -1,25 +1,25 @@
 - name: Experience
   id: experience
-  description: Work Experience, Research & Selected Project
+  description: My Experience
   url: experience.html
   first: true
 
 - name: Projects
   id: projects
-  description: My Course Projects
+  description: My Course Projects (Till 2023.6)
   content: 
   url: projects.html
   first: false
 
-- name: Publications
-  id: publications
-  description: My Publications
-  url: publications.html
-  first: false
+# - name: Publications
+#   id: publications
+#   description: My Publications
+#   url: publications.html
+#   first: false
   
 - name: Coursework
   id: courses
-  description: My Coursework 
+  description: My Coursework (Till 2023.6)
   first: false
 
 

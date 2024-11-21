@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /experience.html
-title: Work Experience, Research & Selected Project
+title: Experience
 header-img: 
 last-updated: 2020-10-30 5:55 PM
 ---
@@ -18,8 +18,12 @@ last-updated: 2020-10-30 5:55 PM
           <!--<a href="{{ research.link }}"><img src="{{ research.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>-->
           <div class="media-body">
             <h5 class="mt-0"><span class="entry-title">{{ experience.name }}</h5>
-            <h6 class="mt-0">{{ experience.position }}</h6>
-            <h6 class="mt-0">Supervisor: {{ experience.supervisor }} | {{ experience.StartDate }} - {{ experience.EndDate }}</h6>
+            {% if experience.supervisor %}
+              <h6 class="mt-0">{{ experience.position }}</h6>
+              <h6 class="mt-0">Supervisor: {{ experience.supervisor }} | {{ experience.StartDate }} - {{ experience.EndDate }}</h6>
+            {% else %}
+              <h6 class="mt-0">{{ experience.position }} | {{ experience.StartDate }} - {{ experience.EndDate }}</h6>
+            {% endif %}
             <h6 class="mt-0">{{ experience.website }}</h6>
             <ul class="description-list">
               {% for description in experience.description %}

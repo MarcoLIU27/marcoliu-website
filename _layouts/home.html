@@ -34,7 +34,7 @@ layout: default
       </div>
       <div class="portrait-title animate__animated animate__fadeInLeft" style="margin-top: 2em">
         <h2>Marco Haoyu LIU</h2>
-        <h3>Computer Science Graduate Student @UCSD</h3>
+        <h3>Computer Science Master's Student @UCSD</h3>
         <h3>BS. Computer Science @CUHK</h3>
         <ul class="network-icon">
           {% include social.html %}
@@ -92,8 +92,13 @@ layout: default
                     <!--<a href="{{ research.link }}"><img src="{{ research.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>-->
                     <div class="media-body">
                       <h5 class="mt-0"><a href="{{ experience.link }}" class="highlighted" style="line-height: 1.5">{{ experience.name }}</a></h5>
-                      <h6 class="mt-0">{{ experience.position }}</h6>
-                      <h6 class="mt-0">Supervisor: {{ experience.supervisor }} | {{ experience.StartDate }} - {{ experience.EndDate }}</h6>
+                      {% if experience.supervisor %}
+                        <h6 class="mt-0">{{ experience.position }}</h6>
+                        <h6 class="mt-0">Supervisor: {{ experience.supervisor }} | {{ experience.StartDate }} - {{ experience.EndDate }}</h6>
+                      {% else %}
+                        <h6 class="mt-0">{{ experience.position }} | {{ experience.StartDate }} - {{ experience.EndDate }}</h6>
+                      {% endif %}
+
                       <h6 class="mt-0">{{ experience.website }}</h6>
                       <ul>
                         {% for description in experience.description %}
